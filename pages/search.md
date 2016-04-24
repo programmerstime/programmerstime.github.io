@@ -1,7 +1,7 @@
 ---
 permalink: /search/
 layout: page
-title: "Search"
+title: "Szukaj"
 ---
 
 {% include _google_search.html %}

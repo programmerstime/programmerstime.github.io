@@ -14,7 +14,7 @@ format: blog-index
 *
 * First check, if widget is empty or not by checking if there is a title
 *
-{% endcomment %}
+
 <div class="row t60">
 	{% if page.widget1.title %}
 		{% include _frontpage-widget.html widget=page.widget1 %}
@@ -30,26 +30,44 @@ format: blog-index
 		{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
 </div><!-- /.row -->
+{% endcomment %}
 
+
+
+{% comment %}
+* Here first three blog posts instead
+*
+{% endcomment %}
+
+
+<div class="row t60">
+    {% for a-post in site.posts limit:3 %}
+        {% if page.widget1.title %}
+            {% include _frontpage-post.html post=a-post %}
+        {% endif %}
+    {% endfor %}
+</div><!-- /.row -->
 
 
 {% comment %}
 *
 * First check, if there is a call for action-button
 *
-{% endcomment %}
+
 {% if page.callforaction.url contains 'http' %}
 {% assign url = '' %}
 {% else %}
 {% assign url = site.url %}
 {% endif %}
-{% if page.callforaction %}
+{% if page.callforaction.url %}
     <div class="row t60 b60">
         <div class="small-12 text-center columns">
             <a class="button large radius {{ page.callforaction.style }}" href="{{ url }}{{ site.baseurl }}{{ page.callforaction.url }}"{% if page.callforaction.url contains 'http' %} target="_blank" {% endif %}>{{ page.callforaction.text }}</a>
-        </div><!-- /.small-12.columns -->
-    </div><!-- /.row -->
+        </div> <!-- /.small-12.columns -->
+    </div> <!-- /.row -->
 {% endif %}
+
+{% endcomment %}
 
 
 
@@ -83,7 +101,7 @@ format: blog-index
 
     <div class="row">
         <div class="medium-6 columns">
-            {% for post in site.posts limit:1 %}
+            {% for post in site.posts limit:1 offset:3 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
@@ -96,7 +114,7 @@ format: blog-index
 
         <div class="medium-6 columns">
             <p><strong>{{ site.data.language.more_articles }}</strong></p>
-            {% include list-posts entries='3' offset='1' %}
+            {% include list-posts entries='5' offset='4' %}
         </div><!-- /.medium-7.columns -->
     </div><!-- /.row -->
 {% endunless %}

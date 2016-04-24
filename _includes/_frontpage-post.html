@@ -1,0 +1,18 @@
+<div class="medium-4 columns frontpage-widget">
+    {% capture post_url %}{% if include.post.url contains 'http' %}{{ include.post.url }}{% else %}{{ site.url }}{{ site.baseurl }}{{ include.post.url }}{% endif %}{% endcapture %}
+    {% capture post_image %}{% if include.post.image.thumb contains 'http' %}{{ include.post.image.thumb }}{% else %}{{ site.urlimg }}{{ include.post.image.thumb }}{% endif %}{% endcapture %}
+
+    <a href="{{ post_url }}" title="{{ include.post.title escape_once }}">
+        {% if include.post.image.thumb %}
+            <img src="{{post_image}}" alt="{{ page.title escape_once }}" width="100%" alt="" />
+        {% endif %}
+        {% if include.post.video %}
+            {{ include.post.video }}
+        {% endif %}
+    </a>
+    <!--<a href="{{ site.url }}{{ site.baseurl }}{{ include.post.url }}" title="{{ include.post.title escape_once }}"><img width="970" src="{{ post_image }}" alt="{{ page.title escape_once }}"></a>-->
+    <h2 class="font-size-h3 t10"><a href="{{ post_url }}"> {{ include.post.title }}</a></h2>
+    <p>{{ include.post.teaser }}</p>
+    <p><a class="button tiny radius" href="{{ post_url }}">{{ site.data.language.more }}</a></p>
+</div>
+
