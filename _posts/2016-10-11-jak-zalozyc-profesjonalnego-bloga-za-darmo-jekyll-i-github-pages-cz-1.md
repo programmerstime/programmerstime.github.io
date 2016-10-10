@@ -11,6 +11,9 @@ teaser: "Prawdopodobnie inauguracyjny wpis na niniejszym blogu. O czymże więc 
 
 categories:
   - blog
+  - GitHub Pages
+
+tags:
   - git
   - jekyll
 
