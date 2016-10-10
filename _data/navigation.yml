@@ -16,12 +16,16 @@
 #  - title: "Dropdown Menu 3"
 #    url: "#"
 
-- title: Blog
-  url: "/blog/"
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: "Archiwum"
+#    url: "/blog/archive/"
+
+- title: Archiwum
+  url: "/archive/"
   side: left
-  dropdown:
-  - title: "Archiwum"
-    url: "/blog/archive/"
 
 #
 #   Navigation to the right › side: right
@@ -29,6 +33,21 @@
 - title: "O Blogu"
   url: "/info/"
   side: right
+- title: "O Autorze"
+  url: "/author/"
+  side: right
+
+
+#  - title: "Dropdown Menu"
+#    url: "#"
+#    side: left
+#    dropdown:
+#    - title: "Dropdown Menu 1"
+#      url: "#"
+#    - title: "Dropdown Menu 2"
+#      url: "#"
+#    - title: "Dropdown Menu 3"
+#      url: "#"
 
 - title: "Szukaj"
   url: "/search/"

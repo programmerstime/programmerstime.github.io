@@ -12,15 +12,15 @@ title: "Czas Programistów"
 
 
 # The slogan describes your website and is used on homepage in <title> and other important places
-slogan: "Strzyg, wiwern, endriag i wilkołaków wkrótce nie będzie już na świecie. A komputery będą zawsze."
+slogan: "blog programistyczny"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "Krótki opis bloga."
+description: "Motywacją do prowadzenia tego bloga jest chęć dołożenia choćby jednej cegiełki do zwiększenia potencjału polskiego zaplecza IT"
 
 # Main author of the website
 # See > authors.yml
-author: rafał
+author: Rafał Paliwoda
 
 # This URL is the main address for absolute links. Don't include a slash at the end.
 #
@@ -45,12 +45,12 @@ logo: "logo.png"
 
 
 # Paginates all X entries
-paginate: 5
+paginate: 10
+
 
 
 # Pagination path › Important for blog page in /blog/ to work
-paginate_path: "blog/page:num"
-
+paginate_path: "page:num"
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
@@ -67,6 +67,8 @@ exclude:
     - LICENSE
     - README.md
     - INSTALL.md
+    - blog/index.html #temporarily the frontpage acts as a blog view
+    - redirect-page.html
 
 
 # The language setting is used in /includes/header.html for html-settings
@@ -83,6 +85,16 @@ compress_html:
   ignore:
     envs: [development]
 
+
+#Contact
+
+contact:
+  email:    'Adres email'
+  content:  'Co chciałbyś powiedzieć?'
+  subject:  'Nowa wiadomość!'
+  submit:   'Wyślij'
+  thanks: 'Dzięki za kontakt. Odpowiem niebawem.'
+  og_locale: 'pl_PL'
 
 #
 #       ____       ____            ____
@@ -102,7 +114,7 @@ defaults:
       show_meta: false 	# Hide metadata for all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: phlow     # Default author for pages
+      author: Rafał Paliwoda # Default author for pages
   -
     scope:
       path: ""
@@ -111,7 +123,7 @@ defaults:
       show_meta: true   # Show metadata for all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: rafał     # Default author for posts
+      author: Rafał Paliwoda # Default author for posts
 
 
 
@@ -148,17 +160,17 @@ defaults:
 #                                                 More information » https://mathiasbynens.be/notes/touch-icons
 
 favicon-32x32:                          "favicon-32x32.png"
-touch-icon-192x192:                     "touch-icon-192x192.png"
-apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
-apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
-apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
-apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
-apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
-apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
-apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
-apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
-msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
-msapplication_tilecolor:                "#fabb00"
+#touch-icon-192x192:                     "touch-icon-192x192.png"
+#apple-touch-icon-180x180-precomposed:   "apple-touch-icon-180x180-precomposed.png"
+#apple-touch-icon-152x152-precomposed:   "apple-touch-icon-152x152-precomposed.png"
+#apple-touch-icon-144x144-precomposed:   "apple-touch-icon-144x144-precomposed.png"
+#apple-touch-icon-120x120-precomposed:   "apple-touch-icon-120x120-precomposed.png"
+#apple-touch-icon-114x114-precomposed:   "apple-touch-icon-114x114-precomposed.png"
+#apple-touch-icon-76x76-precomposed:     "apple-touch-icon-76x76-precomposed.png"
+#apple-touch-icon-72x72-precomposed:     "apple-touch-icon-72x72-precomposed.png"
+#apple-touch-icon-precomposed:           "apple-touch-icon-precomposed.png"
+#msapplication_tileimage:                "msapplication_tileimage.png"               # Size 144x144
+#msapplication_tilecolor:                "#fabb00"
 
 
 #       ______                __                __
@@ -195,7 +207,7 @@ msapplication_tilecolor:                "#fabb00"
 #
 # used in _includes/comments
 
-# disqus_shortname: 
+disqus_shortname: czasprogramistow
 
 
 #      _____

@@ -25,7 +25,7 @@
 *
 {% endcomment %}
 <div>
-	<ul class="clearing-thumbs small-block-grid-4" data-clearing>
+	<ul class="clearing-thumbs medium-block-grid-{{page.gallery_row}}" data-clearing>
 		{% for item in page.gallery %}
 		{% capture url %}{{ item.image_url }}{% endcapture %}
 		{% assign split_url = url | split: '.' %}

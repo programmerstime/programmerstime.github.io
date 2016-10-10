@@ -9,7 +9,6 @@ format: blog-index
     </div><!-- /.row -->
 </div><!-- /#header-home -->
 
-
 {% comment %}
 *
 * First check, if widget is empty or not by checking if there is a title
@@ -17,17 +16,17 @@ format: blog-index
 
 <div class="row t60">
 	{% if page.widget1.title %}
-		{% include _frontpage-widget.html widget=page.widget1 %}
+	{% include _frontpage-widget.html widget=page.widget1 %}
 	{% endif %}
 
 
 	{% if page.widget2.title %}
-		{% include _frontpage-widget.html widget=page.widget2 %}
+	{% include _frontpage-widget.html widget=page.widget2 %}
 	{% endif %}
 
 
 	{% if page.widget3.title %}
-		{% include _frontpage-widget.html widget=page.widget3 %}
+	{% include _frontpage-widget.html widget=page.widget3 %}
 	{% endif %}
 </div><!-- /.row -->
 {% endcomment %}
@@ -37,17 +36,49 @@ format: blog-index
 {% comment %}
 * Here first three blog posts instead
 *
+
+
+<div class="row t30">
+    <ul class="small-block-grid-1 medium-block-grid-2 large-block-grid-3">
+    {% for a-post in paginator.posts %}
+        {% include _frontpage-post.html post=a-post %}
+    {% endfor %}
+    </ul>
+</div><!-- /.row -->
+
 {% endcomment %}
 
 
-<div class="row t60">
-    {% for a-post in site.posts limit:3 %}
-        {% if page.widget1.title %}
-            {% include _frontpage-post.html post=a-post %}
-        {% endif %}
-    {% endfor %}
-</div><!-- /.row -->
+{% comment %}
+Here posts in 3 columns
 
+<div class="row t30">
+    <div class="medium-4 columns">
+        {% for a-post in paginator.posts %}
+        {% if forloop.index == 1 or forloop.index == 4 or forloop.index == 7 or forloop.index == 10 or forloop.index == 13 %}
+                {% include _frontpage-post.html post=a-post %}
+            {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="medium-4 columns">
+        {% for a-post in paginator.posts %}
+        {% if forloop.index == 2 or forloop.index == 5 or forloop.index == 8 or forloop.index == 11 or forloop.index == 14 %}
+        {% include _frontpage-post.html post=a-post %}
+        {% endif %}
+        {% endfor %}
+    </div>
+
+    <div class="medium-4 columns">
+        {% for a-post in paginator.posts %}
+            {% if forloop.index == 3 or forloop.index == 6 or forloop.index == 9 or forloop.index == 12 or forloop.index == 15 %}
+                {% include _frontpage-post.html post=a-post %}
+            {% endif %}
+        {% endfor %}
+    </div>
+</div>
+
+{% endcomment %}
 
 {% comment %}
 *
@@ -75,12 +106,12 @@ format: blog-index
 *
 * First check, if there are any posts at all
 *
-{% endcomment %}
+
 
 {% unless site.posts == empty %}
     <div class="row t30 b20 homepage">
         <div class="small-12 columns">
-            {% for post in site.posts limit:1 %}
+            {% for post in site.posts limit:1 offset:4 %}
             {% if post.image.homepage %}
             <p>
                 <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" title="{{ post.title escape_once }}"><img width="970" src="{{ site.urlimg }}{{ post.image.homepage }}" alt="{{ page.title escape_once }}"></a>
@@ -98,10 +129,9 @@ format: blog-index
         </div><!-- /.small-12.columns -->
     </div><!-- /.row -->
 
-
     <div class="row">
         <div class="medium-6 columns">
-            {% for post in site.posts limit:1 offset:3 %}
+            {% for post in site.posts limit:1 offset:4 %}
             {% if post.subheadline %}<p class="subheadline">{{ post.subheadline }}</p>{% endif %}
             <h2><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
             <p>
@@ -119,6 +149,7 @@ format: blog-index
     </div><!-- /.row -->
 {% endunless %}
 
+{% endcomment %}
 
 {% comment %}
 *
@@ -126,6 +157,9 @@ format: blog-index
 *
 {% endcomment %}
 
+
 <div class="row">
     {{ content }}
 </div><!-- /.row -->
+
+

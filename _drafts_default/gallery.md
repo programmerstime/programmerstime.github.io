@@ -28,7 +28,7 @@ permalink:
 #       caption: Description – not necessary
 #     - image_url: example-2.jpg
 #       caption: Description – not necessary
-#    - image_url: example-3.jpg
+#     - image_url: example-3.jpg
 #      caption: Description – not necessary
 ---
 
