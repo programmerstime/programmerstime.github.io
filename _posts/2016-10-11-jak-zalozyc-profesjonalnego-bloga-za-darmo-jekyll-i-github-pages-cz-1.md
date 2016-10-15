@@ -9,11 +9,8 @@ teaser: "Prawdopodobnie inauguracyjny wpis na niniejszym blogu. O czymże więc 
         W moim przypadku wybór padł na Github Pages. Rozwiązanie pełne zalet.
         Bardzo wygodne dla kogoś korzystającego z gita na co dzień. Jeszcze lepsze dla pozostałych."
 
-categories:
-  - blog
-  - GitHub Pages
-
 tags:
+  - blog
   - git
   - jekyll
 
