@@ -4,7 +4,7 @@ layout: page
 title: "Jaki język programowania?"
 subheadline: "Pytanie nie tak trudne jak się może wydawać"
 teaser: "W tematach okołokomputerowych, chyba nawet częściej niż w ,,normalnym'' życiu,
-         sporo jest miejsca do zażartych dyskusji typu: ,,o wyższosci Świąt Bożego Narodzenia nad Świętami Wielkiej Nocy''.
+         sporo jest miejsca do zażartych dyskusji typu: ,,o wyższości Świąt Bożego Narodzenia nad Świętami Wielkiej Nocy''.
          Oto jeden z bardziej popularnych tematów."
 
 tags:
