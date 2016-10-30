@@ -33,7 +33,7 @@ Od niepamiętnych czasów nieświadomi użytkownicy Windows spierali sie z linuk
 zdają się być pogodzone przez Maca) czy miłośnicy Vima z sympatykami Emacsa.
 Podobnie tytułowe pytanie jest nader często punktem zapalnym takich świętych wojen.
 Ilekroć ktoś zwróci się z tego typu prośbą dostaje sporą dawkę ,,dobrych rad'',
-przeczących sobie nazwajem, nierzadko przy akompaniamencie obelg wymienianych pomiędzy ich autorami.
+przeczących sobie nawzajem, nierzadko przy akompaniamencie obelg wymienianych pomiędzy ich autorami.
 Efektem czego jest jeszcze większa dezorientacja. Te cenne i celne odpowiedzi potrafią zginąć w stogu siana.
 
 Tak przynajmniej było w dużej mierze kiedy ja zaczynałem swoją przygodę z programowaniem.
@@ -62,8 +62,8 @@ A jak wiadomo, to są sprawy, których nie da się zanegować. Nie możemy prz
 
 >Jesteś w wielkim błędzie, kiedy mówisz, że lubisz Pythona.
 
-Ciekawie jest posłużyć się tutaj wszelkiego rodzaju analogiami. Niektóry porównują języki do samochodów,
-mówiąc, że C to to superszybki samochód wyścigowy, potrafiący się zepsuć po każdych 50 kilometrach.
+Ciekawie jest posłużyć się tutaj wszelkiego rodzaju analogiami. Niektórzy porównują języki do samochodów,
+mówiąc, że C to superszybki samochód wyścigowy, potrafiący się zepsuć po każdych 50 kilometrach.
 Java natomiast może być porównana do autobusu, który jest duży, ciężki i dobrze sobie radzi
 z wszelkiego rodzaju niewielkimi kolizjami. Asembler jest wtedy gołym silnikiem, do którego nadwozie
 zbudować trzeba samemu!
@@ -71,8 +71,8 @@ zbudować trzeba samemu!
 
 <h2>Który jezyk programowania jest najlepszy na początek?</h2>
 
-Dodanie tego depełnienia nadaje poprawny kontekst. Wiadomo wtedy, że przypadkiem użycia
-języka programowania jest nauka programowania sama w sobie. Jakich zatem kryteria możemy sformułować w tej sytuacji?
+Dodanie tego dopełnienia nadaje poprawny kontekst. Wiadomo wtedy, że przypadkiem użycia
+języka programowania jest nauka programowania sama w sobie. Jakie zatem kryteria możemy sformułować w tej sytuacji?
 Po zastanowieniu dochodzę do wniosku, że dużo może zależeć tutaj od okoliczności konkretnego przypadku.
 Na przykład od poziomu chęci i motywacji danej osoby.
 
@@ -82,10 +82,10 @@ Języki mają różną krzywą uczenia się.
 Może ona być bez znaczenia dla osoby, która jest pewna, że będzie programować.
 W przeciwnym przypadku język zbyt trudny na początek może zniechęcić do nauki w ogóle.
 
-Teraz apropos oczekiwań. Niestety w tych czasach oczekiwania mamy bardzo duże.
+Teraz a propos oczekiwań. Niestety w tych czasach oczekiwania mamy bardzo duże.
 Do wszystkiego. W szczególności komputerów, urządzeń mobilnych, do programów i aplikacji na nich zainstalowanych.
 W takich warunkach spędzenie kilku godzin na pisaniu aplikacji konsolowej, która wypisuje
-trójkąt Pascala może się wydawać zwyczajnie mało atrakcyjne.
+trójkąt Pascala, może się wydawać zwyczajnie mało atrakcyjne.
 Można to zniwelować wybierając język/platformę oferujące
 więcej wodotrysków, jeżeli tylko czujemy się wtedy bardziej zmotywowani.
 
@@ -114,7 +114,7 @@ W razie gdyby powyższa opinia wywołała zbyt duże emocje, przytaczam mit nr 
 %}
 
 A tak naprawdę, to warto pójść dużo dalej niż ,,napisanie czegokolwiek''.
-Za szczególnie istotnie uważam te elementy języka, które wyróżniają go spośród innych.
+Za szczególnie istotne uważam te elementy języka, które wyróżniają go spośród innych.
 Może to być na przykład Software Transactional Memory w Clojure,
 transformacje Groovym czy aktor(z)y w Scali.
 
@@ -123,7 +123,7 @@ Ja swoje pierwsze programistyczne kroki postawiłem w Basicu. Był to jednak nie
 epizod. Kiedy znudzony grami na Amigę 2000, szperałem w ,,Workbenczu''. Udało się wtedy niemalże
 wyłącznie przy pomocy instrukcji ,,if'' napisać króciutką, ściśle liniową, tekstową grę fabularną.
 Jeszcze przed liceum w ręce wpadł mi Turbo Pascal, w którym zdarzyło się popełnić kilka prostych programów.
-W szkole natomiast przepisywaliśmy programy Logo z jakichś kserówek. Nic nie zapowiadało spektakularnej kariery ;).
+W szkole natomiast przepisywaliśmy programy Logo z jakichś kserówek. Nic nie zapowiadało spektakularnej kariery ;)
 
 Następne wybory były dość proste -- w liceum Olimpiada Informatyczna nie wspierała zbyt wielu języków.
 Dlatego też wyborem domyślnym dla ludzi nie różniących się istotnie ode mnie wiekem był C/C++.
