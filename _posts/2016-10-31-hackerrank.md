@@ -37,18 +37,18 @@ gallery_row: 2
 ---
 ## Pomysł
 Wyszedłem więc ostatnio z inicjatywą organizacji relatywnie krótkiego eventu programistycznego w moim teamie.
-Swego czasu zdarzało mi się bardziej lub mniej regularnie uczestniczyć różnego rodzaju konkursach algorytmicznych.
-Zamierzeniem było żeby stworzyć teraz coś w tym rodzaju, gdzie uczestnicy dostaliby zbiór zadań do rozwiązania
+Swego czasu zdarzało mi się bardziej lub mniej regularnie uczestniczyć w różnego rodzaju konkursach algorytmicznych.
+Zamierzeniem było, żeby stworzyć teraz coś w tym rodzaju, gdzie uczestnicy dostaliby zbiór zadań do rozwiązania
 w określonym czasie.
 Miałem jednak świadomość, że zadania wyłącznie mocno matematyczne mogą nie przypaść każdemu do gustu.
 Dobrze byłoby więc, gdyby konkurs zawierał także elementy bardziej techniczne, takie jak zapytania SQL,
-sktypty w Bashu, elementy programowania funkcyjnego czy sprawdzające znajomość wyrażeń regularnych.
+skrypty w Bashu, elementy programowania funkcyjnego czy sprawdzające znajomość wyrażeń regularnych.
 
-##Przygotowanie
+## Przygotowanie
 Zacząłem następnie poszukiwania platformy, która pomogłaby w organizacji takowego wydarzenia, spełniając jak
 najwięcej spośród wymienionych wyżej kryteriów. Przyznam szczerze, że dość szybko znalazłem HackerRank &ndash;
 rozwiązanie idealne dla tego przypadku. Oferujące niesamowitą łatwość organizacji zawodów.
-Zadania można stworzyć samemu lub wybrać spośród już instniejących w bazie. Wszystko do wyklikania w kilka
+Zadania można stworzyć samemu lub wybrać spośród już istniejących w bazie. Wszystko do wyklikania w kilka
 minut. Jak wygląda od strony uczestnika? Zobaczcie sami:
 
 {% comment %}
@@ -62,7 +62,7 @@ minut. Jak wygląda od strony uczestnika? Zobaczcie sami:
 </div> <!-- /.row -->
 
 Zachęcam do stworzenia konta i spróbowania swoich sił. Są to oryginalne zadania z eventu w mojej firmie.
-Przewiduję że niektóre zadania mogą wydać się zbyt proste. Kolegom raczej nie sprawiły one trudności.
+Przewiduję, że niektóre zadania mogą wydać się zbyt proste. Kolegom raczej nie sprawiły one trudności.
 Jednak biorąc pod uwagę, że były to pierwsze tego typu zawody, nie chciałem przeginać z poziomem.
 Wolałem obrać strategię kilkunastu łatwych zadanek, aniżeli kilku takich, że na każdym można
 utknąć na pół godziny.
@@ -76,7 +76,7 @@ Muszę przyznać jednak, że samo nabijanie punktów rankingu jakoś mnie nie z
 Może akurat nie miałem ochoty na natrzaskanie jakiejś konkretnej liczby zadanek z rzędu.
 Czy to tak po prostu czy w ramach jednego z konkursów ogólnych.
 
-Sytuacja zmienia się jednak diametralnie jeżeli rywalizujesz ze swoimi kolegami.
+Sytuacja zmienia się jednak diametralnie, jeżeli rywalizujesz ze swoimi kolegami.
 To zdecydowanie ma sens i może dać dużo pozytywnej energii, tak jak to było w moim przypadku.
 
 ## Co mi się w tym podoba?
