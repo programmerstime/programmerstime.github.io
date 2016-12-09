@@ -17,10 +17,7 @@ tags:
   - team building
 
 image:
-  header: ""
   thumb: "photo-run.jpeg"
-  caption: "Caption?"
-  url: ""
 
 header:
   image_fullwidth: "photo-run.jpeg"
@@ -28,10 +25,10 @@ header:
 comments: true
 
 gallery:
-    - image_url: hackerrank-categories.png
-    - image_url: hackerrank-domains.png
-    - image_url: hackerrank-edytor.png
-    - image_url: hackerrank-solved.png
+    - image_url: hackerrank/hackerrank-categories.png
+    - image_url: hackerrank/hackerrank-domains.png
+    - image_url: hackerrank/hackerrank-edytor.png
+    - image_url: hackerrank/hackerrank-solved.png
 gallery_row: 2
 
 ---
@@ -85,7 +82,7 @@ HackerRank posiada niezłą oprawę graficzną. Podkreślam tutaj fakt istnienia
 strony startowej (kliknięcie przeniesie do niej):
 
 <div><a href="https://www.hackerrank.com/czas-programistow">
-<img class="t20" src="{{ site.url }}/images/hackerrank-landing-page.png" alt=""></a>
+<img class="t20" src="{{ site.url }}/images/hackerrank/hackerrank-landing-page.png" alt=""></a>
 </div>
 <br>
 
@@ -95,8 +92,8 @@ Do rozwiązania bardziej wymagających polegam jednak skorzystanie z IDE.
 Tutaj mała galeria:
 
 {% comment %}
-<img class="t20" src="{{ site.url }}/images/hackerrank-domains.png" alt="">
-<img class="t20" src="{{ site.url }}/images/hackerrank-edytor.png" alt="">
+<img class="t20" src="{{ site.url }}/images/hackerrank/hackerrank-domains.png" alt="">
+<img class="t20" src="{{ site.url }}/images/hackerrank/hackerrank-edytor.png" alt="">
 {% endcomment %}
 
 {% include gallery %}

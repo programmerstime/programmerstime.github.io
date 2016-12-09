@@ -41,7 +41,8 @@ to po lekturze tego artykułu z pewnością będą. A zatem do dzieła!
 
 <h2>Git...</h2>
 
-Nie wydaje mi się, żeby to miało jakiś większy sens by zamieścić tutaj informacje na temat podstaw gita.
+Nie wydaje mi się, żeby zamieszczenie tutaj szczegółowych informacji na temat podstaw gita
+ miało jakiś głębszy sens.
 Lepiej może zrobić to <a href="http://pl.wikipedia.org/wiki/Git_(oprogramowanie)">wikipedia</a>.
 W praktyce natomiast dobrze pokaże to np. <a href="https://www.codecademy.com/learn/learn-git">CodeCademy</a>.
 
@@ -86,7 +87,7 @@ Czyż nie jest to bardzo miłe z ich strony? Nie dość, że przechowują nasz k
 oferując znakomite wsparcie do pracy z nim, to jeszcze hostują jego stronę.
 
 Oczywiście są tutaj ograniczenia. Są to 1 GB na repozytorium strony,
-100 GB ruchu sieciowego oraz 100,000 żądań http. Dla niektórych może to być niewiele,
+100 GB ruchu sieciowego oraz 100,000 żądań http miesięcznie. Dla niektórych może to być niewiele,
 ale na początek na pewno wystarczy. Ponadto możemy podpiąć swoją domenę.
 W przeciwieństwie np. do wordpress.com --- bez żadnych dodatkowych opłat.
 

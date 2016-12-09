@@ -20,7 +20,7 @@ header:
 
 comments: true
 
-
+#sidebar: right
 ---
 
 ### To nie do końca tak
@@ -70,22 +70,22 @@ Oto i ono:
 Oto lista składników, które potrzebujemy żeby odpalić co trzeba na naszym Raspberry:
 
 <center>
-<img class="t20" src="{{ site.url }}/images/IMG_5542.jpg" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/IMG_5542.jpg" alt="">
 Raspberry Pi 3
 <br>
 <br>
 
-<img class="t20" src="{{ site.url }}/images/IMG_5519.jpg" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/IMG_5519.jpg" alt="">
 Karta sieciowa Edimax EW-7811Un
 <br>
 <br>
 
-<img class="t20" src="{{ site.url }}/images/IMG_5526.jpg" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/IMG_5526.jpg" alt="">
 Karta pamieci (8+)
 <br>
 <br>
 
-<img class="t20" src="{{ site.url }}/images/IMG_5531.jpg" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/IMG_5531.jpg" alt="">
 Może jakaś obudowa by się też przydała
 <br>
 </center>
@@ -122,7 +122,7 @@ network={
 }
 </pre>
 
-Krok ten może być kłopotliwy dla użytkowników Maca (w tym mnie), z powodu problemów z obsługą systemu plików ext4.
+Krok ten może być kłopotliwy dla użytkowników Mac OS (w tym mnie), z powodu problemów z obsługą systemu plików ext4.
 Nie zastanawiając się zbyt długo użyłem do niego mojego laptopa z Ubuntu.
 
 
@@ -265,7 +265,7 @@ sudo update-rc.d isc-dhcp-server enable"
 
 Wszystko powinno bardzo ładnie wyglądać i np. tak kolorowo świecić[^wieczko]:
 
-<img class="t20" src="{{ site.url }}/images/IMG_5549.jpg" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/IMG_5549.jpg" alt="">
 
 #### 9. Dodatki
 
@@ -285,7 +285,7 @@ Ponadto przybyło +1 do ogólnego obycia w konsoli i konfiguracji systemu.
 
 <div>
 <center>
-<img class="t20" src="{{ site.url }}/images/raspberry_speedtest.png" alt="">
+<img class="t20" src="{{ site.url }}/images/raspberry/raspberry_speedtest.png" alt="">
 </center>
 </div>
 <br>
