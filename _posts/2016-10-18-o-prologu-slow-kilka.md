@@ -10,7 +10,7 @@ teaser: "Artykuł opierający sie na materiałach sięgających czasów studenck
          <br><br>
          Czuję jednak wielką chęć na wniesienie swojego wkładu w rozpowszechnianiu prologowych idei.
          Muszę przy okazji przyznać, że go bardzo lubię. Szczególnie za ten deklaratywny styl.
-         W programie prologowym nie mówimy krok po kroku, co należy zrobić żeby dane zadanie
+         <br><br>W programie prologowym nie mówimy krok po kroku, co należy zrobić żeby dane zadanie
          czy problem rozwiązać. Zamiast tego po prostu *deklarujemy* jakie warunki powinno spełniać jego rozwiązanie.
          Prolog sam znajdzie interesujące nas instancje."
 
@@ -40,12 +40,15 @@ opisać następująco:
 
 gdzie <var>X</var> jest zmienną (w Prologu zmienne rozpoczynają się wielkimi literami lub symbolem&nbsp;'_'),
 <var>f</var> jest symbolem funkcyjnym o arności n, a <var>t1, ..., tn</var> są także termami.
+
 Symbole o arności 0 nazywamy stałymi i rozpoczynamy małą literą lub bierzemy w apostrofy.
 Jak widać sprawdza się tutaj staropolskie przysłowie głoszące, że wszystko jest termem : ).
 
 ##Klauzule hornowskie
 Innym potrzebnym zagadnieniem są podstawy rachunku zdań. Formuły rachunku zdań budujemy za pomocą funktorów
-zdaniotwórczych (fałsz, prawda, koniunkcja, alternatywa, itd.) oraz zmiennych zdaniowych. Klauzulą nazywamy
+zdaniotwórczych (fałsz, prawda, koniunkcja, alternatywa, itd.) oraz zmiennych zdaniowych.
+
+Klauzulą nazywamy
 alternatywę literałów (zmiennych zanegowanych lub nie). Klauzulą hornowską natomiast, taką klauzulę,
 w której co najwyżej jedna zmienna jest niezanegowana (można klauzulę tę zapisać w postaci implikacji).
 
@@ -71,8 +74,9 @@ Przez unifikację termów *t* oraz *u* rozumiemy operację znalezienia takiego p
 zmiennych, żeby termy *t* i *u* były równe.
 
 W Prologu na początku pod każdą zmienną może być podstawiony jakikolwkiek inny term.
-Dwie stałe mogą być zunifikowane wtedy i tylko wtedy, gdy są równe. Dwa termy,
-które nie są stałymi mogą być zunifikowane wtedy i tylko wtedy, gdy ich najbardziej zewnętrzne
+Dwie stałe mogą być zunifikowane wtedy i tylko wtedy, gdy są równe.
+
+Dwa termy, które nie są stałymi mogą być zunifikowane wtedy i tylko wtedy, gdy ich najbardziej zewnętrzne
 symbole funkcyjne są tej samej arności oraz gdy kolejne argumenty tych symboli są parami unifikowalne.
 Przykłady unifikacji:
 
@@ -124,6 +128,7 @@ brat(X, Y) :- matka(M, X), matka(M, Y), mezczyzna(X).
 Jak widzimy jest to baza relacji rodzinnych, czyli taki sztandarowy przykład.
 Jest tam między innymi predykat *brat/2* opisujący relację ,,bycia bratem’‘.
 Jego definicja oznacza: ,,X jest bratem Y, jeżeli M jest matką X i M jest matką Y oraz X jest mężczyzną’‘.
+
 Zadajemy Prologowi zapytanie:
 
 {% include alert terminal="
@@ -134,6 +139,7 @@ X = bartek"
 Spróbujmy prześledzić zapytanie *brat(X, czarek)*. Ograniczymy się przy tym do pierwszego rezultatu.
 Najpierw przebiega powiedziona próba unifikacji termu *matka(M, X)* z pierwszym z faktów dotyczących matki,
 czyli termem *matka(anna, bartek)*. Dokonują się tutaj podstawienia *M=anna* oraz *X=bartek*.
+
 Następnie term *matka(anna, czarek)* jest unifikowany w sposób trywialny z identycznym termem.
 Podobna rzecz dzieje się z termem mężczyzna(bartek). Wynikiem unifikacji jest *X=bartek*.
 Czujemy niesamowitą satysfakcję z rozumienia tego narzędzia. Czujemy?
@@ -186,13 +192,16 @@ K = s(s(0))"
 
 Raz jeszcze przeanalizujemy działanie Prologa. Najpierw term *add(s(0), s(0), K)* jest unifikowany
 z *add(0, X, X)* z niepowodzeniem, później z termem *add(s(X), Y, s(Z))*.
+
 Rezultatem są podstawienia *X=0, Y=s(0)* oraz *K=s(Z)*, później przechodzimy do przesłanki *add(X,Y,Z)*,
 która zgodnie z podstawieniami ma postać *add(0, s(0), Z)*. Jest ona unifikowana z *add(0, X’, X’)*.
 Rezultat — *X’=s(0),Z=s(0)*. A zatem *K=s(s(0))*.
 
 <var>X’</var> pojawiło się nagle w celu uniknięcia posługiwania się tą samą zmienną w różnych znaczeniach.
 Widzimy, że taki sposób analizy jest dość kłopotliwy. Po nacisnięciu klawisza ; zamieniamy rezultat
-obliczeń na fałsz, co wznawia dalsze obliczenia Prologa. W ten sposób widzimy, że Prolog przechodzi
+obliczeń na fałsz, co wznawia dalsze obliczenia Prologa.
+
+W ten sposób widzimy, że Prolog przechodzi
 w głąb pewne drzewo, w którego wierzchołkach znajdują się kolejne predykaty. Bardzo dobrą praktyką
 jest narysowanie takiego drzewa (po jakimś czasie będziemy w stanie to zrobić w pamięci na pierwszy
 rzut oka na program :). Być może pojawi się taka rzecz tutaj w przyszłości.

@@ -11,7 +11,7 @@ teaser: "Większość z nas przechowuje chociaż część swoich danych w różn
          <br><br>
          Interesującym nas zagadnieniem jest szyfrowanie danych. A w zasadzie jego brak.
          Bo o ile pliki przesyłane w bezpieczny sposób, to już przechowywane są w swojej zwyczajnej postaci.
-         I tutaj pomimo zapewne wysokich standardów bezpieczeństwa, teoretycznie,
+         <br><br>I tutaj pomimo zapewne wysokich standardów bezpieczeństwa, teoretycznie,
          mogą uzyskać do nich dostęp osoby trzecie. Co Dropbox oczywiście przyznaje..."
 
 tags:
@@ -71,13 +71,17 @@ tutaj poruszymy. A konkretnie dwa.
 
 Znane i do niedawna powszechnie używane narzędzie open source do szyfrowania, którego rozwój został
 niedawno zakończony. Na jego stronie znajdziecie informację, że jego używanie jest potencjalnie niebezpiecznie
-z powodu możliwych luk w zabezpieczeniach. Ma jednak (ponoć) godnych następców.
+z powodu możliwych luk w zabezpieczeniach.
+
+Ma jednak (ponoć) godnych następców.
 Jednym z jego nich jest VeraCrypt. W artykule używam nazwy pierwotnego
 projektu głównie ze względu na jego dużo większą rozpoznawalność.
 
 Pozwala on na tworzenie zaszyfrowanych partycji i kontenerów. Te ostatnie były użyteczne dla mnie
 podczas korzystania z Dropboksa. Kontener ma postać zwykłego pliku, który możemy umieścić
-w katalogu w chmurze. Otwieramy go montując jako samodzielny dysk przy użyciu VeraCrypt.
+w katalogu w chmurze.
+
+Otwieramy go montując jako samodzielny dysk przy użyciu VeraCrypt.
 Po zamontowaniu możemy edytować zawartość. Po zakończeniu dokonywania zmian,
 odmontowujemy dysk, by upewnić się że wszystkie zmiany zostały zapisanie w pliku naszego kontenera.
 
@@ -96,10 +100,13 @@ Tak utworzony kontener możemy zamontować uzyskując dostęp do jego zawartośc
 
 Niestety podwyższony poziom bezpieczeństwa musimy okupić w tym przypadku akceptacją kilku niedogodności.
 Pierwszą z nich jest **brak możliwości jednoczesnej edycji naszego kontenera**.
-Kontener TC to czarna skrzynka. Choćbyśmy zmienili jeden plik, to po zaszyfrowaniu
+Kontener TC to czarna skrzynka.
+
+Choćbyśmy zmienili jeden plik, to po zaszyfrowaniu
 zawartość kontenera może się zmienić nie do poznania. Naturalnym więc jest,
 że próba synchronizacji zawartości po dwóch jednocześnych modyfikacjach[^modyfikacja]
 zwyczajnie prowadzi do otrzymania losowej papki zmielonych bajtów.
+
 Z drugiej strony, do szczególnie wrażliwych danych raczej będziemy sięgać nieczęsto, a jak już, to dokonując
  tylko jednej edycji jednocześnie.
 
@@ -107,6 +114,7 @@ Innym -- i to niestety dużo bardziej uciążliwym ograniczeniem -- jest **brak 
 synchronizacji plików znajdujących się poza katalogiem Dropboksa**. Otóż, dość wygodnym
 rozwiązaniem jest np. stworzenie linka symbolicznego do innego folderu, jak np. pulpitu
 czy dokumentów, tak aby foldery te miały swoje aktualne kopie w chmurze[^synchronizacja].
+
 Niestety rozwiązanie z linkami w tym przypadku nie zadziała, gdyż VeraCrypt nie ,,podąży'' za nimi
 podczas zapisu kontenera. Pewnie można by to obejść tworząc linki w drugą stronę,
 tzn. z pulpitu do jakiegoś katalogu w naszym kontenerze, ale wtedy musielibyśmy
@@ -115,6 +123,7 @@ tzn. z pulpitu do jakiegoś katalogu w naszym kontenerze, ale wtedy musielibyś
 Z moich obserwacji wynika, że tak **zamontowany kontener jest widoczny dla wszystkich
 użytkowników** zalogowanych na danym komputerze. Być może da się tej kwestii jakoś
 zaradzić. Ja spędziłem nad tym kwadrans bez osiągnięcia pożądanego rezultatu.
+
 I wreszcie ostatnią sprawą jest utrata takich funkcjonalności jak
 **możliwość przywrócenia wcześniejszych wersji plików** czy **współdzielenia ich**.
 
@@ -126,6 +135,7 @@ W praktyce używanie EncFS okazuje się być podobne do TrueCrypta.
 Istnieje jednak kilka różnic, które pozwalają na otrzymanie
 trochę lepszego *user experience*.
 Otóż EncFS zachowuje strukturę plików i katalogów, szyfrując także oczywiście ich nazwy.
+
 Dzięki temu może obsługiwać jednoczesną edycję, współdzielenie i wersjonowanie
 plików. Wszystko niestety za cenę obniżonego poziomu zabezpieczeń -- o tym za chwilę.
 
@@ -143,17 +153,23 @@ Potem sprawę załatwia w zasadzie jedna komenda:
 encfs ~/Dropbox/Private ~/PrivateDropbox" %}
 
 Konsekwencje wykonania kodu powyższego mogą być dwie: rozpoczęcie procesu tworzenia
-zaszyfrowanego woluminu bądź jego zamontowanie. W przypadku pierwszym konieczne będzie
+zaszyfrowanego woluminu bądź jego zamontowanie.
+
+W przypadku pierwszym konieczne będzie
 odpowiedzenie na kilka pytań np. o to czy katalogi powinny zostać utworzone,
 a także prośba o wybranie opcji spośród: *expert configuration mode* oraz *pre-configured
-paranoia mode*. Wybranie tej drugiej wydaje się dość bezpiecznym krokiem.
+paranoia mode*.
+
+Wybranie tej drugiej wydaje się dość bezpiecznym krokiem.
 W przypadku drugim będzie chodziło o zamontowanie utworzonego wcześniej kontenera.
 Wystarczające będzie wtedy podanie hasła.
 
 
 Pojawić się może pytanie: dlaczego pierwsza ścieżka prowadzi do katalogu Dropboksa?
 Otóż jest to katalog, w którym przechowywana będzie zaszyfrowana wersja naszych plików.
-Dostępna powinna tam być zawsze. Zamontowanie woluminu umożliwi nam dostęp do
+Dostępna powinna tam być zawsze.
+
+Zamontowanie woluminu umożliwi nam dostęp do
 plików i folderów w postaci odszyfrowanej -- w lokalizacji podanej jako drugi argument.
 Istotna jest tutaj jedna, dość oczywista zasada: nigdy nie modyfikujemy ręcznie tego pierwszego folderu!
 
@@ -181,6 +197,7 @@ I teraz ilekroć zapisuję jakiś plik w moich dokumentach, to mogę zdecydowa
 W kwiestach bezpieczeństwa naturalnym mankamentem jest fakt, że EncFS zachowuje niezmienioną
 strukturę katalogów i plików. Każy mający dostęp do zaszyfrowanego katalogu
 może zobaczyć ile mamy plików, ich rozmiary, prawa dostępu, daty modyfikacji, itd.
+
 Może to się komuś nie podobać, ale w przypadku nie-tak-znowu-łatwego dostępu
 do moich danych na Dropboksie, nie uważam to za powód do zmartwień.
 

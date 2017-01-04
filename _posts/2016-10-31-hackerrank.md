@@ -7,7 +7,7 @@ title: "HackerRank &ndash; świetny sposób na programistyczny event dla twojego
 teaser: "Jestem zwolennikiem wszelkiego rodzaju rekreacyjnej programistycznej aktywności pozapracowej.
          Szczególnie kiedy odbywa się ona w biurze, w godzinach pracy i to jeszcze przy
          zachęcie przełożonych. Mam na myśli tutaj wszelkiego rodzaju
-         coding dojo czy hackatony. Moim zdaniem filary dobrej kultury kodowania w firmie.
+         coding dojo czy hackatony.<br><br>Moim zdaniem filary dobrej kultury kodowania w firmie.
          Jako że moja firma kulturę tę ma wysoko rozwiniętą, nie ma problemu z organizacją takich wydarzeń.
          Mam zatem przyjemność podzielenia się pomysłem, sprawdzonym przeze mnie niedawno w moim zespole."
 
@@ -35,16 +35,22 @@ gallery_row: 2
 ## Pomysł
 Wyszedłem więc ostatnio z inicjatywą organizacji relatywnie krótkiego eventu programistycznego w moim teamie.
 Swego czasu zdarzało mi się bardziej lub mniej regularnie uczestniczyć w różnego rodzaju konkursach algorytmicznych.
+
 Zamierzeniem było, żeby stworzyć teraz coś w tym rodzaju, gdzie uczestnicy dostaliby zbiór zadań do rozwiązania
 w określonym czasie.
+
 Miałem jednak świadomość, że zadania wyłącznie mocno matematyczne mogą nie przypaść każdemu do gustu.
 Dobrze byłoby więc, gdyby konkurs zawierał także elementy bardziej techniczne, takie jak zapytania SQL,
 skrypty w Bashu, elementy programowania funkcyjnego czy sprawdzające znajomość wyrażeń regularnych.
 
 ## Przygotowanie
 Zacząłem następnie poszukiwania platformy, która pomogłaby w organizacji takowego wydarzenia, spełniając jak
-najwięcej spośród wymienionych wyżej kryteriów. Przyznam szczerze, że dość szybko znalazłem HackerRank &ndash;
+najwięcej spośród wymienionych wyżej kryteriów.
+
+Przyznam szczerze, że dość szybko znalazłem HackerRank &ndash;
 rozwiązanie idealne dla tego przypadku. Oferujące niesamowitą łatwość organizacji zawodów.
+
+
 Zadania można stworzyć samemu lub wybrać spośród już istniejących w bazie. Wszystko do wyklikania w kilka
 minut. Jak wygląda od strony uczestnika? Zobaczcie sami:
 
@@ -60,6 +66,7 @@ minut. Jak wygląda od strony uczestnika? Zobaczcie sami:
 
 Zachęcam do stworzenia konta i spróbowania swoich sił. Są to oryginalne zadania z eventu w mojej firmie.
 Przewiduję, że niektóre zadania mogą wydać się zbyt proste. Kolegom raczej nie sprawiły one trudności.
+
 Jednak biorąc pod uwagę, że były to pierwsze tego typu zawody, nie chciałem przeginać z poziomem.
 Wolałem obrać strategię kilkunastu łatwych zadanek, aniżeli kilku takich, że na każdym można
 utknąć na pół godziny.
@@ -69,6 +76,7 @@ utknąć na pół godziny.
 
 HackerRank to z grubsza jedno z wielu miejsc w Internecie, w którym można zdobywać punkty,
 odznaki i piąć się w rankingu poprzez rozwiązywanie zadań programistycznych. Lubię takie miejsca.
+
 Muszę przyznać jednak, że samo nabijanie punktów rankingu jakoś mnie nie zainteresowało.
 Może akurat nie miałem ochoty na natrzaskanie jakiejś konkretnej liczby zadanek z rzędu.
 Czy to tak po prostu czy w ramach jednego z konkursów ogólnych.

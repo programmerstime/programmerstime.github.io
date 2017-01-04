@@ -6,7 +6,7 @@ subheadline: "Nie tylko dla blogerów"
 
 teaser: "Prawdopodobnie inauguracyjny wpis na niniejszym blogu. O czymże więc miałoby być,
         jeżeli nie o początku przygody z technicznymi aspektami jego założenia.
-        W moim przypadku wybór padł na Github Pages. Rozwiązanie pełne zalet.
+        W moim przypadku wybór padł na Github Pages. <br><br>Rozwiązanie pełne zalet.
         Bardzo wygodne dla kogoś korzystającego z gita na co dzień. Jeszcze lepsze dla pozostałych."
 
 tags:
@@ -33,9 +33,12 @@ To oczywiście nie wszystkie zalety.
 
 Zastanawiając się nad wyborem silnika blogowego tak naprawdę rozważałem tylko dwie opcje:
 Wordpressa oraz GitHub Pages. Jak na typowego backend developera przystało.
+
 O ile o pierwszym słyszeli prawie wszyscy, w tym autor tego bloga ---
 frontendowo-webmasterski laik, to już szczegóły drugiej opcji mogą nie być wszystkim znane.
-U większości jednak powinny występować przynajmniej pozytywne skojarzenia. A jeżeli nie występują,
+U większości jednak powinny występować przynajmniej pozytywne skojarzenia.
+
+A jeżeli nie występują,
 to po lekturze tego artykułu z pewnością będą. A zatem do dzieła!
 
 
@@ -73,6 +76,7 @@ Możemy mieć zatem względą pewność, że nasze dane nagle nie wyparują.
 W bezpłatnej opcji dostępne są tylko publiczne repozytoria. Są one jednak wystarczające
 dla wielu programistów dla większości niekomercyjnych projektów.
 Nie jest to zatem coś czym należy się martwić. W końcu treści bloga i tak są udostępniane.
+
 Chyba że ktoś ma jakiś niesamowity szablon, którego nie chciałby pokazywać innym.
 Ja bazuję na <a href="https://phlow.github.io/feeling-responsive/">feeling responsive</a>,
 którego nieco dla moich potrzeb zmodyfikowałem. Stawiam hipotezę, że publiczne repozytorium
@@ -83,12 +87,15 @@ jest dla bloga wystarczające.
 <h2> GitHub Pages!</h2>
 Opowieści ciąg dlaszy. Pora teraz na GitHub Pages. Funkcjonalność oferującą
 hosting statycznej strony projektu bezpośrednio z poziomu repozytorium GitHuba.
+
 Czyż nie jest to bardzo miłe z ich strony? Nie dość, że przechowują nasz kod
 oferując znakomite wsparcie do pracy z nim, to jeszcze hostują jego stronę.
 
 Oczywiście są tutaj ograniczenia. Są to 1 GB na repozytorium strony,
 100 GB ruchu sieciowego oraz 100,000 żądań http miesięcznie. Dla niektórych może to być niewiele,
-ale na początek na pewno wystarczy. Ponadto możemy podpiąć swoją domenę.
+ale na początek na pewno wystarczy.
+
+Ponadto możemy podpiąć swoją domenę.
 W przeciwieństwie np. do wordpress.com --- bez żadnych dodatkowych opłat.
 
 <h2>Instruktaż</h2>

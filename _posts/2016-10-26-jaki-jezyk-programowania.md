@@ -32,18 +32,23 @@ I choć odpowiedzi padło już tysiące, naszła mnie ochota dorzucenia swoich p
 Od niepamiętnych czasów nieświadomi użytkownicy Windows spierali sie z linuksiarzami (teraz obie grupy
 zdają się być pogodzone przez Maca) czy miłośnicy Vima z sympatykami Emacsa.
 Podobnie tytułowe pytanie jest nader często punktem zapalnym takich świętych wojen.
+
 Ilekroć ktoś zwróci się z tego typu prośbą dostaje sporą dawkę ,,dobrych rad'',
 przeczących sobie nawzajem, nierzadko przy akompaniamencie obelg wymienianych pomiędzy ich autorami.
 Efektem czego jest jeszcze większa dezorientacja. Te cenne i celne odpowiedzi potrafią zginąć w stogu siana.
 
 Tak przynajmniej było w dużej mierze kiedy ja zaczynałem swoją przygodę z programowaniem.
 Na szczęście powstały serwisy typu Q/A jak np. [Stack Overflow](http://www.stackoverflow.com) -- pozwalające na sprawniejsze
-oddzielanie ziaren od plew. Odpowiedź skrajna, bardzo subiektywna, nie biorąca pod uwagę wszystkich
+oddzielanie ziaren od plew.
+
+Odpowiedź skrajna, bardzo subiektywna, nie biorąca pod uwagę wszystkich
 możliwych przypadków nie zostanie oceniona przez większość jako pomocna.
 
 Dlaczego taka różnica zdań? Powodów jest wiele. Jednym z nich może być fakt,
 że informatyka to niezmiernie szeroka dziedzina.
-Programowanie programowaniu nierówne. Dwie osoby mogą mieć zupełnie przeciwne poglądy,
+Programowanie programowaniu nierówne.
+
+Dwie osoby mogą mieć zupełnie przeciwne poglądy,
 będąc jednocześnie niezbyt daleko od prawdy. Bardzo dużo zależy tutaj od punktu widzenia.
 Ktoś tworzący oprogramowanie dla systemów kontroli lotów będzie zwracał uwagę
 na nieco inne aspekty niż programista aplikacji webowych.
@@ -64,6 +69,7 @@ A jak wiadomo, to są sprawy, których nie da się zanegować. Nie możemy prz
 
 Ciekawie jest posłużyć się tutaj wszelkiego rodzaju analogiami. Niektórzy porównują języki do samochodów,
 mówiąc, że C to superszybki samochód wyścigowy, potrafiący się zepsuć po każdych 50 kilometrach.
+
 Java natomiast może być porównana do autobusu, który jest duży, ciężki i dobrze sobie radzi
 z wszelkiego rodzaju niewielkimi kolizjami. Asembler jest wtedy gołym silnikiem, do którego nadwozie
 zbudować trzeba samemu!
@@ -73,6 +79,7 @@ zbudować trzeba samemu!
 
 Dodanie tego dopełnienia nadaje poprawny kontekst. Wiadomo wtedy, że przypadkiem użycia
 języka programowania jest nauka programowania sama w sobie. Jakie zatem kryteria możemy sformułować w tej sytuacji?
+
 Po zastanowieniu dochodzę do wniosku, że dużo może zależeć tutaj od okoliczności konkretnego przypadku.
 Na przykład od poziomu chęci i motywacji danej osoby.
 
@@ -84,6 +91,7 @@ W przeciwnym przypadku język zbyt trudny na początek może zniechęcić do nau
 
 Teraz a propos oczekiwań. Niestety w tych czasach oczekiwania mamy bardzo duże.
 Do wszystkiego. W szczególności komputerów, urządzeń mobilnych, do programów i aplikacji na nich zainstalowanych.
+
 W takich warunkach spędzenie kilku godzin na pisaniu aplikacji konsolowej, która wypisuje
 trójkąt Pascala, może się wydawać zwyczajnie mało atrakcyjne.
 Można to zniwelować wybierając język/platformę oferujące
@@ -94,6 +102,7 @@ więcej wodotrysków, jeżeli tylko czujemy się wtedy bardziej zmotywowani.
 
 Hakerskim adeptom poleca się jak najwięcej eksperymentować. Próbować języków wspierających
 różne techniki programowania: obiektowe, funkcyjne, programowania logicznego, współbieżnego.
+
 Ważne żeby wiedzieć, że różne podejścia do programowania istnieją i różne języki
 oferują swoje mechanizmy do rozwiązywania określonych problemów.
 Zrozumienie ich natomiast przynieść może nam wyłącznie korzyści.
@@ -122,6 +131,7 @@ transformacje Groovym czy aktor(z)y w Scali.
 Ja swoje pierwsze programistyczne kroki postawiłem w Basicu. Był to jednak niezbyt wiele znaczący
 epizod. Kiedy znudzony grami na Amigę 2000, szperałem w ,,Workbenczu''. Udało się wtedy niemalże
 wyłącznie przy pomocy instrukcji ,,if'' napisać króciutką, ściśle liniową, tekstową grę fabularną.
+
 Jeszcze przed liceum w ręce wpadł mi Turbo Pascal, w którym zdarzyło się popełnić kilka prostych programów.
 W szkole natomiast przepisywaliśmy programy Logo z jakichś kserówek. Nic nie zapowiadało spektakularnej kariery ;)
 
@@ -139,7 +149,9 @@ Analiza wszystkich lub nawet chociaż większości wydaje się mało zachęcaj�
 Mogę jednak przedstawić spojrzenie na temat z mojej perspektywy.
 Postanowiłem zatem rzucić z rękawa radami następującymi poniżej.
 Lista ta została sporządzona z myślą o kimś zainteresowanym szeroko pojętym (komerycyjnym?)
-tworzeniem oprogramowania. Nie obejmuje przypadków brzegowych, takich jak zastosowanie naukowe,
+tworzeniem oprogramowania.
+
+Nie obejmuje przypadków brzegowych, takich jak zastosowanie naukowe,
 robotyka, programowanie dla NASA czy CERN.
 
 1. Jeżeli interesuje Cię frontend, mobilne lub design/grafika - pomiń resztę punktów.

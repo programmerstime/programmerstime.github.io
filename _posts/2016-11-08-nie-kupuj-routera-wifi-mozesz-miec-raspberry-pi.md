@@ -6,7 +6,7 @@ subheadline: "Rzecz o potrzebie nieustannego samodoskonalenia"
 
 teaser: "Potrzeba matką wynalazku. Taki mógłby być (pod)tytuł tego wpisu. Byłoby to jednak
     małe przekłamanie. Niestety niczego wynaleźć mi się nie udało. Skorzystałem z pewnego opisanego już tu i ówdzie rozwiązania.
-    Niestandardowego jednak. Takie lubię najbardziej. Otóż: nie zamieniłem starego routera bezprzewodowego na nowszy model,
+    <br><br>Niestandardowego jednak. Takie lubię najbardziej. Otóż: nie zamieniłem starego routera bezprzewodowego na nowszy model,
     gdy ten odmówił posłuszeństwa. Kupiłem zamiast tego Rasperry Pi. Taki mały komputer. Mały, ale jary... czy jak tam to leciało..."
 
 tags:
@@ -26,7 +26,9 @@ comments: true
 ### To nie do końca tak
 
 By nie narażać cierpliwości czytelnika na szwank, od razu powiem: router jest pod wieloma względami
-lepszym wyborem, a pod zdecydowaną ich większością wyborem niegorszym. Jedynym niemalże zagadnieniem,
+lepszym wyborem, a pod zdecydowaną ich większością wyborem niegorszym.
+
+Jedynym niemalże zagadnieniem,
 które może nadać sens skonfigurowaniu własnego routera Wi-Fi (na w zasadzie dowolnym komputerze)
 jest możliwość nauczenia się czegoś przy okazji. I ten cel sam w sobie uznaję za niesamowicie istotny.
 
@@ -35,15 +37,20 @@ jest możliwość nauczenia się czegoś przy okazji. I ten cel sam w sobie uz
 
 Sprawa niezmiernie ważna szczególnie dla ludzi związanych z technologiami informatycznymi.
 Niestety nie możemy tak jak np. mistrzowie sushi doskonalić się w jednej wąskiej dziedzinie
-aż do osiągnięcia perfekcji. To znaczy oczywiście nikt nam tego nie zabrania, ale nie ma
+aż do osiągnięcia perfekcji.
+
+To znaczy oczywiście nikt nam tego nie zabrania, ale nie ma
 to większego sensu. A przynajmniej nie w szerszym ujęciu naszej kariery.
+
 Przyjdzie bowiem prędziej czy później taki moment, w którym zorientujemy się,
 że oferty pracy w naszym ulubionym języku czy technologii mają coraz więcej
 wspólnego z utrzymaniem bieżącego systemu niż z rozwojem nowych funkcjonalności.
 To samo dotyczy nowych paradygmatów czy metodologii.
 
 Każdy się już pewnie w tym momencie ze mną zgodzi, że będziemy się musieli uczyć przez większość naszego
-zawodowego życia. Być może z małymi przerwami na chwile odpoczynku. Byle nie wypadać z obiegu na zbyt długi okres czasu.
+zawodowego życia. Być może z małymi przerwami na chwile odpoczynku.
+
+Byle nie wypadać z obiegu na zbyt długi okres czasu.
 Najlepszym wydaje się podejście, które pozwoli nam ubić dwa ptaszyska, przy użyciu tylko jednego kamienia:
 
 
@@ -52,6 +59,7 @@ Najlepszym wydaje się podejście, które pozwoli nam ubić dwa ptaszyska, przy
 Co przez to rozumiem? Otóż nie myśl tylko o tym, co materialnego możesz zyskać dokonując danego wyboru.
 Bądź ponad to. Rozpartuj jakie mogą być korzyści długoterminowe. Jakie mogą być nieoczywiste korzyści
 wybrania tego drugiego, pozornie bardziej żmudnego i mało opłacalnego wyjścia.
+
 Czasem to czego się nauczysz przy okazji będzie o wiele bardziej cenne i zmieni wyniki ogólnego rozrachunku.
 To o czym mówię to tytułowy, często opisywany w literaturze dylemat *mieć czy umieć*[^joke].
 
@@ -94,7 +102,9 @@ Może jakaś obudowa by się też przydała
 
 Teraz praktyka. Niestety nie nastąpi tutaj teraz arcykompletny opis tego jak odpalić punkt dostępu Wi-Fi
 na naszym Raspberry Pi. Będzie to jedynie najwierniejszy jak to tylko możliwe zarys.
-Myślę że potrzebne szczegóły bez problemu znajdziecie w sieci. Gorzej jest natomiast ze znalezienien
+Myślę że potrzebne szczegóły bez problemu znajdziecie w sieci.
+
+Gorzej jest natomiast ze znalezienien
 informacji o tym jak dobrze to działa. Tak aby móc ocenić czy to ma w ogóle sens.
 Ja zaryzykowałem i z chęcią dzielę się wynikami w końcowej części artykułu.
 
@@ -280,6 +290,7 @@ Polecam wypróbowanie następujących narzędzi:
 
 Zdaje się, że dość już technicznego mięsa poleciało. Pora teraz na konkluzję.
 Otóż nareszcie autor niniejszego bloga dowiedział się ze szczegółami jak działa linuksowe *iptables*.
+
 Było to konieczne, ponieważ Raspberry było połączone se światem beż żadnych pośredników.
 Ponadto przybyło +1 do ogólnego obycia w konsoli i konfiguracji systemu.
 
@@ -293,12 +304,13 @@ Ponadto przybyło +1 do ogólnego obycia w konsoli i konfiguracji systemu.
 Jak działa sam router możemy zobaczyć na obrazku powyżej. Czy to dobrze, oceńcie sami.
 Dodam tylko, że po kablu osiągam około 100 Mb pobierania. Jeżeli posiadasz średnioszybkie
 łącze, to prawdopodobnie prawie nie odczułbyś różnicy pomiędzy rozwiązaniem *out of the box*.
+
 Prawie, ponieważ nie tylko prędkość okazała się tutaj istotna, ale także stabilność połączenia.
-
-
 No i z tym niestety bywało gorzej. Przy trochę większym obciążeniu, jak np. podczas oglądaniu
  filmów w HD z *youtube* czy *netfliksa* przydarzały się permanentne zwiechy,
- na które lekarstwem było jedynie zrestartowanie Raspberry. Problem okazał się tkwić
+ na które lekarstwem było jedynie zrestartowanie Raspberry.
+
+Problem okazał się tkwić
 w zarządzaniu zasilaniem. Zabiegiem znakomicie redukującym tego typu problemy była
 edycja pliku **/etc/modprobe.d/8192cu.conf** poprzez dodanie następującej treści:
 
