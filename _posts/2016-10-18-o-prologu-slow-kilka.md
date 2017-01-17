@@ -113,7 +113,7 @@ Najważniejszą niemalże częścią programu Prologowego jest baza reguł.
 Składa się ona z faktów i reguł, które podane są w formie implikacji
 opisanych kilka paragrafów powyżej. Baza taka może wyglądać np. następująco:
 
-<pre>
+{% highlight prolog %}
 mezczyzna(adam).
 mezczyzna(bartek).
 mezczyzna(czarek).
@@ -123,7 +123,7 @@ matka(anna, czarek).
 matka(anna, celina).
 
 brat(X, Y) :- matka(M, X), matka(M, Y), mezczyzna(X).
-</pre>
+{% endhighlight %}
 
 Jak widzimy jest to baza relacji rodzinnych, czyli taki sztandarowy przykład.
 Jest tam między innymi predykat *brat/2* opisujący relację ,,bycia bratem’‘.
@@ -150,6 +150,7 @@ gdy *X* jest różny od *Y*. W SWI-Prologu napiszemy:
 
     \+(X = Y)
 
+
 Niestety okazuje się, że w ,,czystym’‘ Prologu mamy niemałe problemy z wyrażeniem nieprawdy.
 Postaramy się przyjrzeć tej sprawie w przyszłości.
 
@@ -157,8 +158,10 @@ Postaramy się przyjrzeć tej sprawie w przyszłości.
 Załóżmy, że chcemy zdefiniować własne liczby naturalne przy pomocy symbolu 0 oraz symbolu funkcyjnego *s/1*
 oznaczającego następnika, a także operację dodawania w tej reprezentacji. Będzie to wyglądało na przykład tak:
 
-    nat(0).                % 0 jest liczbą naturalną
-    nat(s(X)) :- nat(X).   % następnik liczby naturalnej także
+{% highlight prolog %}
+nat(0).                % 0 jest liczbą naturalną
+nat(s(X)) :- nat(X).   % następnik liczby naturalnej także
+{% endhighlight %}
 
 Możemy w łatwy sposób sprawdzić działanie predykatu:
 
@@ -174,13 +177,16 @@ Yes"
 O powyższych liczbach możemy myśleć, że to 0, 1 oraz 3.
 Operacja dodawania wyglądać może następująco:
 
-    add(0, X, X) :- nat(X).
-    add(s(X), Y, s(Z)) :- add(X, Y, Z).
+{% highlight prolog %}
+add(0, X, X) :- nat(X).
+add(s(X), Y, s(Z)) :- add(X, Y, Z).
+{% endhighlight %}
 
 Reguły te możemy dla łatwiejszego zrozumienia wyrazić także w *zwykłej* arytmetyce:
 
     0 + X = X jeżeli X jest liczbą naturalną
     (X + 1) + Y = Z + 1 jeżeli X + Y = Z
+
 
 Przykładowe zastosowanie:
 

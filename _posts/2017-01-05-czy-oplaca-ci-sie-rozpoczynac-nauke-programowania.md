@@ -102,7 +102,7 @@ oczywiście nie wszędzie jest tak kolorowo.
 *Long story short*, patrzymy na poniższy obrazek. Po kliknięciu flagi piłka powinna zacząć się ruszać.
 Próbujemy za nią nadążyć z zieloną paletką przy pomocy klawiszy <kbd>&larr;</kbd> oraz <kbd>&rarr;</kbd>
 
-<iframe allowtransparency="true" width="485" height="402" src="//scratch.mit.edu/projects/embed/135831480/?autostart=false" frameborder="0" allowfullscreen></iframe>
+<iframe allowtransparency="true" width="500" height="420" src="//scratch.mit.edu/projects/embed/135831480/?autostart=false" frameborder="0" allowfullscreen></iframe>
 
 A teraz krótka piłka. To co widzimy, to baza dla Twojego zadania. Pozwoli ona oszczędzić trochę czasu
 potrzebnego na rozpoczęcie projektu od nowa. Tutaj na zasadzie analogii będzie można rozkminić
@@ -113,7 +113,15 @@ Napisany jest on w Scratchu -- bardzo fajnym swoją drogą językiem na początk
 
 Teraz klikamy *See Inside*. Zobaczymy planszę oraz mnóstwo kolorowych klocków.
 Te klocki to nasz program. Otóż każdy element-obrazek na planszy ma swój kod,
-opisujący jego zachowanie. Jeżeli jest on dla Ciebie z grubsza zrozumiały, to kontynuuj czytanie.
+opisujący jego zachowanie.
+<div>
+<center>
+<img class="b20" src="{{ site.url }}/images/photo-scratch.png" alt="">
+</center>
+</div>
+
+
+Jeżeli program jest dla Ciebie z grubsza zrozumiały, to kontynuuj czytanie.
 W przeciwnym razie zajrzyj do ostatniego paragrafu.
 
 ### Zadanie
