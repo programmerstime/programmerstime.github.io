@@ -206,6 +206,7 @@ Być może temat zasłuży kiedyś na osobny artykuł. A w razie trudności z w
 - lepiej jest trenować w grupie niż w samemu
 - warto czasem dowiedzieć się czego się nie wie
 - można też się paru rzeczy dowiedzieć i potem już je wiedzieć ;)
+- brak studiów może być przeszkodą przy pierwszej pracy -- i tu ciekawostka: sam dyplom nie zawsze jest niezbędny, fakt bycia na n-tym roku studiów często załatwia sprawę
 2. Iść na studia trzeba jak się jest dopiero co po liceum
 3. Angielski to pozycja obowiązkowa
 4. Jak się jest z innej branży, to można zniwelować próg wejścia:
@@ -213,6 +214,7 @@ Być może temat zasłuży kiedyś na osobny artykuł. A w razie trudności z w
 - książki, blogi, tutoriale i różnorakie internetowe akademie
 - dołączając do projektów open source będąc już na trochę wyższym poziomie
 - można rozważyć studia wieczorowe lub zaoczne
+- wszelkie krótkoterminowe kursy traktować raczej jako dodatek
 5. Niektórzy rozpoczynają od aplikacji mobilnych -- Android/iOS
 - być może jest tam względnie niższy próg wejścia -- żeby zacząć doświadczony programista
  musi nauczyć się mniej więcej podobnych rzeczy co ktoś z trochę mniejszym doświadczeniem
@@ -261,19 +263,46 @@ Szacowanie rozpocznę od końca. Otóż 10000 godzin[^godziny]
 spędzone na kodowaniu pozwoli na osiągnięcie poziomu pi razy oko satysfakcjonującego.
 {% endcomment %}
 
+{% comment %}
+{% include alert text='
+<b>Own Experience</b><br>
+'
+%}
+{% endcomment %}
+
 Gdybym miał mówić z własnego doświadczenia, to wyszłoby, że programowałem niekomercyjnie
-przez okres około 6-7 lat zanim zostałem przyjęty na praktyki. Z tym, że tylko połowę
-z tego intensywnie. Resztę pewnie niewięcej niż średnio 1 godzinę dziennie.
+                 przez okres około 6-7 lat zanim zostałem przyjęty na praktyki. Z tym, że tylko połowę
+                 z tego intensywnie. Resztę pewnie nie więcej niż średnio 1 godzinę dziennie.
 
 Mam jednak znajomych, którzy rozpoczęli programowanie dopiero na studiach,
 a podobne praktyki, rozpoczęli zdaje się na 4. roku. No ale wtedy programowali
 dość intensywnie, spędzając większość czasu na programowaniu zadań z różnorakich list.
 
+
+## Myślisz o zwrocie w karierze?
+
 Z drugiej strony faktem jest, że studia moje bywały miejscami mocno teoretyczne.
 Być może rozsądnie wybierając co jest mi do szczęścia potrzebne, a co nie, da się
 zejść do poziomu...
 
-No właśnie. Ciekaw jestem jak te liczby wyglądają u innych programistów.
+No i tutaj niestety dość łatwo się zagalopować. Nierozważne optymalizowanie ilości czasu spędzonego
+na naukę szybko poskutkuje słabym efektem końcowym. A przecież nie chcemy być programistami
+byle jakimi.
+
+{% comment %}
+W ogóle zatem nie podam granicy dolnej. Ktoś mógłby mi potem wytoczyć proces,
+że zmarnował fortunę na kilkutygodniowy kurs, po którym nie otrzymał zatrudnienia.
+{% endcomment %}
+
+Bądź co bądź, wymaga to sporej ilośći wysiłku. Nie opieraj się na pozornie łatwych
+ścieżkach na skróty. Plan powinien być  oparty na realistycznych założeniach czasowych,
+liczonych raczej miesiącach i latach niż tygodniach. Stosownie do bazowej wiedzy i doświadczenia.
+
+Gorąco jednak zachęcam wszystkich do spróbowania. Chociażby do rozwiązania Scratchowego zadania.
+Jak się sposoba, to następnego. I tak dalej. Przy odpowiedniej determiniacji oraz zdrowych oczekiwaniach
+z pewnością się to opłaci.
+
+Ciekaw jestem jak czasowe statystyki wyglądają u innych programistów.
 Szczególnie tych, którzy są samoukami[^samouk]. Zachęcam do podzielenia się swoimi doświadczeniami!
 
 ###### Dziękuję za uwagę i do przeczytania wkrótce
