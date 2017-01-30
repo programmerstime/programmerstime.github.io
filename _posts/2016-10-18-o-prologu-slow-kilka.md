@@ -19,10 +19,7 @@ tags:
   - prolog
 
 image:
-  header: ""
   thumb: "photo-medusas.jpeg"
-  caption: "Caption?"
-  url: ""
 
 header:
   image_fullwidth: "photo-medusas.jpeg"

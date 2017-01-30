@@ -12,10 +12,7 @@ tags:
   - kariera
 
 image:
-  header: ""
   thumb: "photo-tools.jpeg"
-  caption: "Caption?"
-  url: ""
 
 header:
   image_fullwidth: "photo-tools.jpeg"

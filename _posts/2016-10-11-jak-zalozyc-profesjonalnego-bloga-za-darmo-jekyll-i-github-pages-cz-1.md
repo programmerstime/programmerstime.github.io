@@ -15,10 +15,7 @@ tags:
   - jekyll
 
 image:
-  header: ""
   thumb: "photo-typewriter-2.jpeg"
-  caption: "Caption?"
-  url: ""
 
 header:
   image_fullwidth: "photo-typewriter-2.jpeg"

@@ -249,7 +249,7 @@ W ramach ciekawostki powiem, że prezydent Obama wie, że sortowanie bąbelkowe 
     <iframe width="420" height="315" src="//www.youtube.com/embed/koMpGeZpu4Q" frameborder="0" allowfullscreen></iframe>
 </div>
 
-Spotkałem się natomiast z programistami w wieloletnim stażem, którzy nie orientowali się
+Spotkałem się natomiast z programistami z wieloletnim stażem, którzy nie orientowali się
 w sposób konkretny w temacie. Oczywiście wypadałoby, ale ich przykład pokazuje, że nie trzeba.
 
 Ważnym jest także z jakiego poziomu startujemy. Czy jesteśmy zaznajomieni z komputerami.
@@ -271,19 +271,19 @@ spędzone na kodowaniu pozwoli na osiągnięcie poziomu pi razy oko satysfakcjon
 {% endcomment %}
 
 Gdybym miał mówić z własnego doświadczenia, to wyszłoby, że programowałem niekomercyjnie
-                 przez okres około 6-7 lat zanim zostałem przyjęty na praktyki. Z tym, że tylko połowę
-                 z tego intensywnie. Resztę pewnie nie więcej niż średnio 1 godzinę dziennie.
+przez okres około 6-7 lat zanim zostałem przyjęty na praktyki. Z tym, że tylko połowę
+ tego intensywnie. Resztę pewnie nie więcej niż średnio 1 godzinę dziennie.
 
 Mam jednak znajomych, którzy rozpoczęli programowanie dopiero na studiach,
-a podobne praktyki, rozpoczęli zdaje się na 4. roku. No ale wtedy programowali
-dość intensywnie, spędzając większość czasu na programowaniu zadań z różnorakich list.
+a podobne praktyki, rozpoczęli zdaje się na 4. roku. No ale wtedy kodowali
+bardzo dużo, spędzając większość czasu na zadaniach z różnorakich list.
 
 
 ## Myślisz o zwrocie w karierze?
 
-Z drugiej strony faktem jest, że studia moje bywały miejscami mocno teoretyczne.
-Być może rozsądnie wybierając co jest mi do szczęścia potrzebne, a co nie, da się
-zejść do poziomu...
+Z drugiej strony faktem jest, że studia te bywały miejscami mocno teoretyczne.
+Być może rozsądnie wybierając co jest komu do szczęścia potrzebne, a co nie, da się
+znacząco skrócić ten proces.
 
 No i tutaj niestety dość łatwo się zagalopować. Nierozważne optymalizowanie ilości czasu spędzonego
 na naukę szybko poskutkuje słabym efektem końcowym. A przecież nie chcemy być programistami
@@ -294,12 +294,12 @@ W ogóle zatem nie podam granicy dolnej. Ktoś mógłby mi potem wytoczyć proce
 że zmarnował fortunę na kilkutygodniowy kurs, po którym nie otrzymał zatrudnienia.
 {% endcomment %}
 
-Bądź co bądź, wymaga to sporej ilośći wysiłku. Nie opieraj się na pozornie łatwych
+Bądź co bądź, wymaga to sporej ilości wysiłku. Nie opieraj się na pozornie łatwych
 ścieżkach na skróty. Plan powinien być  oparty na realistycznych założeniach czasowych,
-liczonych raczej miesiącach i latach niż tygodniach. Stosownie do bazowej wiedzy i doświadczenia.
+liczonych raczej w miesiącach i latach niż tygodniach. Stosownie do bazowej wiedzy i doświadczenia.
 
 Gorąco jednak zachęcam wszystkich do spróbowania. Chociażby do rozwiązania Scratchowego zadania.
-Jak się sposoba, to następnego. I tak dalej. Przy odpowiedniej determiniacji oraz zdrowych oczekiwaniach
+Jak się spodoba, to następnego. I tak dalej. Przy odpowiedniej determinacji oraz zdrowych oczekiwaniach
 z pewnością się to opłaci.
 
 Ciekaw jestem jak czasowe statystyki wyglądają u innych programistów.
