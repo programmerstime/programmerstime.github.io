@@ -1,14 +1,14 @@
 ---
 layout: page
 
-title: "The Five Disfunctions of a Team"
+title: "The Five Dysfunctions of a Team"
 subheadline: "Opowieść o przywództwie"
 
 teaser: "Miałem ostatnio przyjemność przeczytać tytułową książkę Patrika Lencioni.
-         Otrzymałem ją w ramach prezentu światcznego od CEO mojej firmy. Dostali ją zresztą wszyscy.
+         Otrzymałem ją w ramach prezentu świątecznego od CEO mojej firmy. Dostali ją zresztą wszyscy.
           Razem ze słuchawkami. Nie chce ktoś kupić może? Dla mnie za małe.<br><br>
          Spoko że była w oryginale. Mogłem przy okazji poćwiczyć angielski, co było chyba
-         główną motywacją. Ale sama książka też mi się spodobała. Na tyle że chętnie podzielę się
+         główną motywacją. Ale sama książka też mi się spodobała. Na tyle, że chętnie podzielę się
          po trochu jej treścią w sparafrazowanej formie, jak i swoimi przemyśleniami."
 
 tags:
