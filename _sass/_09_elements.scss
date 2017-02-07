@@ -145,3 +145,33 @@ img.lazy {
     transition: opacity 0.7s;
     opacity: 1;
 }
+
+.center-image
+{
+  margin: 0 auto;
+  display: block;
+}
+
+.scaled-down-50-image
+{
+  width: 50%;
+  height: auto;
+}
+
+.scaled-down-70-image
+{
+  width: 70%;
+  height: auto;
+}
+
+.scaled-down-45-image
+{
+  width: 45%;
+  height: auto;
+}
+
+.scaled-down-40-image
+{
+  width: 40%;
+  height: auto;
+}
