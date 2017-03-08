@@ -150,5 +150,4 @@ Niejeden będzie zaskoczony. Zachęcam do zapoznania się z drugą części a
 [^regression_equation]: Oczywiście ten wzór nie musi tak wyglądać. Może mieć różne formy -- na przykład regresji wielominanowej: \\(h_\Theta(x) = \Theta_1 x_1^2 + \Theta_2 x_2^2\\).
 [^hyperplane]: Hiperpłaszczyzna to podprzestrzeń o wymiarze o jeden mniejszym niż przestrzeń, w której się zawiera. Przykładowo dla 2-wymiarowej płaszczyny (powierzchnia i cena) będzie to prosta powierzchnia -> cena.
 [^iff]: *iff* \\(\equiv\\) *if and only if*
-[^bias_skipped]: Bias values have been skipped here to make the equation simpler.
 [^european_champion]: Informacja wciąż stosowna, aczkolwiek przyćmiewa ją aktualnie jeszcze bardziej zadziwiający fakt: AlphaGo wygrało 4:1 z jednym z najlepszych współczesnych graczy -- Lee Sedolem.
