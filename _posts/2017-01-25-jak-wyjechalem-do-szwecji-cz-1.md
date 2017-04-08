@@ -145,3 +145,5 @@ od siebie zespołów, zmienia całkowicie kontekst.
 
 A był to okres dynamicznego rozwoju firmy. Jak się później okazało, miałem dołączyć do zespołu
 w podobnym czasie co dwóch kolegów z Brazylii oraz jeden z Argentyny i jeden z Macedonii.
+
+*To be continued*
