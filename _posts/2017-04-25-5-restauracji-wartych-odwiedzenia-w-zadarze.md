@@ -173,10 +173,10 @@ By wrócić do smaku tej pizzy polanej ostrą oliwą nagiąłem nawet moje aktua
 
 <div class="row t30 b30">
   <div class="large-6 columns">
-    <img src="/images/zadar/IMG_4081.jpg">
+    <img src="/images/zadar/IMG_4081.JPG">
   </div>
   <div class="large-6 columns">
-    <img src="/images/zadar/IMG_4082.jpg">
+    <img src="/images/zadar/IMG_4082.JPG">
   </div>
 </div>
 
