@@ -9,6 +9,8 @@ teaser: "Prawdopodobnie inauguracyjny wpis na niniejszym blogu. O czymże więc 
         W moim przypadku wybór padł na Github Pages. <br><br>Rozwiązanie pełne zalet.
         Bardzo wygodne dla kogoś korzystającego z gita na co dzień. Jeszcze lepsze dla pozostałych."
 
+category: dev
+
 tags:
   - blog
   - git

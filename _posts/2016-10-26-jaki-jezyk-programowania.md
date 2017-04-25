@@ -7,6 +7,8 @@ teaser: "W tematach okołokomputerowych, chyba nawet częściej niż w ,,normaln
          sporo jest miejsca do zażartych dyskusji typu: ,,o wyższości Świąt Bożego Narodzenia nad Świętami Wielkiej Nocy''.
          Oto jeden z bardziej popularnych tematów."
 
+category: dev
+
 tags:
   - języki
   - kariera

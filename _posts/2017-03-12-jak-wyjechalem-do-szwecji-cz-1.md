@@ -12,6 +12,7 @@ innymi korzeniami, historią i kulturą, zwyczajami czy panującym tam klimatem.
 
 To także dla mnie jeden z filarów życiowej wolności: dzisiaj jestem tutaj, jutro mogę być gdzie zechcę..."
 
+category: lifestyle
 
 tags:
   - szwecja

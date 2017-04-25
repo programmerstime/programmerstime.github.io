@@ -14,6 +14,8 @@ teaser: "Większość z nas przechowuje chociaż część swoich danych w różn
          <br><br>I tutaj pomimo zapewne wysokich standardów bezpieczeństwa, teoretycznie,
          mogą uzyskać do nich dostęp osoby trzecie. Co Dropbox oczywiście przyznaje..."
 
+category: dev
+
 tags:
   - dropbox
   - bezpieczeństwo

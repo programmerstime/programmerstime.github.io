@@ -10,6 +10,8 @@ teaser: "To druga część pościgu za sieciami neuronowymi. Pojawienie się now
  <br><br>Wszystko co potrzebne żeby opowiedzieć interesującą historię.
 Prawie jak ,,Stary człowiek i morze''. Tylko sieci już nie te."
 
+category: dev
+
 tags:
   - sztuczna inteligencja
   - machine learning

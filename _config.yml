@@ -54,7 +54,7 @@ paginate_path: "page:num"
 
 # Theme works best with Kramdown (using the table of contents function)
 markdown: kramdown
-permalink: /:categories/:title/
+permalink: /:title/
 highlight: rouge
 gems: [jekyll-paginate]
 excerpt_separator: "<!--more-->"

@@ -11,6 +11,8 @@ teaser: "Jestem zwolennikiem wszelkiego rodzaju rekreacyjnej programistycznej ak
          Jako że moja firma kulturę tę ma wysoko rozwiniętą, nie ma problemu z organizacją takich wydarzeń.
          Mam zatem przyjemność podzielenia się pomysłem, sprawdzonym przeze mnie niedawno w moim zespole."
 
+category: dev
+
 tags:
   - hackerrank
   - zawody

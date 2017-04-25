@@ -9,6 +9,8 @@ teaser: "Potrzeba matką wynalazku. Taki mógłby być (pod)tytuł tego wpisu. 
     <br><br>Niestandardowego jednak. Takie lubię najbardziej. Otóż: nie zamieniłem starego routera bezprzewodowego na nowszy model,
     gdy ten odmówił posłuszeństwa. Kupiłem zamiast tego Rasperry Pi. Taki mały komputer. Mały, ale jary... czy jak tam to leciało..."
 
+category: dev
+
 tags:
   - Raspberry Pi
 

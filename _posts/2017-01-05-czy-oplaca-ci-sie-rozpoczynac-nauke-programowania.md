@@ -11,7 +11,7 @@ Byłaby to jednak odpowiedź z mojego punktu widzenia.
 A tysiące godzin konsultacji programistycznych
 nauczyć mogą, że rzeczy nie zawsze wyglądają tak samo z każdej strony..."
 
-
+category: dev
 
 tags:
   - scratch

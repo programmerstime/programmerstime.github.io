@@ -14,6 +14,8 @@ teaser: "Artykuł opierający sie na materiałach sięgających czasów studenck
          czy problem rozwiązać. Zamiast tego po prostu *deklarujemy* jakie warunki powinno spełniać jego rozwiązanie.
          Prolog sam znajdzie interesujące nas instancje."
 
+category: dev
+
 tags:
   - języki
   - prolog

@@ -10,6 +10,8 @@ teaser: "Jeden z nielicznych (jeszcze) postów napisanych przeze mnie oryginalni
          Moim zdaniem jednego z najbardziej przecenianych i jednocześnie niedocenianych bytów w informatyce.
           To jedna z rzeczy, o których wszyscy (aktualnie coraz częściej) mówią, ale niewielu tak naprawdę wie z czym się to je."
 
+category: dev
+
 tags:
   - sztuczna inteligencja
   - machine learning
