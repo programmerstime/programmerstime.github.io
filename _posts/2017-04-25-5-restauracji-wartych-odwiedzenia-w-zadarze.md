@@ -131,7 +131,7 @@ Restauracja w samym sercu Starego Miasta. Tak naprawdę planowałem wizytę w re
 tańszej nieco ponoć. Ale i tu ceny nie wystraszyły. Szczególnie, że kelner polecił
  dania wg niego regionalne, ze średniej półki cenowej.
 
- Było to m.in. bordetto przedstawione na zdjęciu poniżej:
+ Było to m.in. brodetto przedstawione na zdjęciu poniżej:
 
 <div class="row t30 b30">
   <div class="large-6 columns">
@@ -152,7 +152,7 @@ a następnie niespiesznym spacerze na Stare Miasto.
 
 ###### Ceny:
 
-- bordetto: 85
+- brodetto: 85
 
 ## Sime
 
