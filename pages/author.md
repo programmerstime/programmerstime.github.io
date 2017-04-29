@@ -17,7 +17,7 @@ Pragmatyk, stroniący od pójścia na łatwiznę.
 Antagonista rzemieślniczego podejścia do programowania.
 
 Zawodowe zainteresowania to głównie backend development przy użyciu języka Java
-i innych na jego maszynie wirtualnej opartych: Scala, Groovy, Clojure.
+i innych na jego maszynie wirtualnej opartych: Groovy, Clojure, Scala.
 A także języki funkcyjne w ogóle, algorytmy i szeroko pojęte computer science
 (informatyka wydaje się tutaj być dość nieprecyzyjnym terminem).
 

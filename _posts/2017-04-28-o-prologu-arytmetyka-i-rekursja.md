@@ -1,7 +1,7 @@
 ---
 layout: page
 
-title: "O Prologu... &ndash; artytmetyka i rekursja"
+title: "O Prologu... &ndash; arytmetyka i rekursja"
 #subheadline: ""
 
 teaser: "Mam nadzieję, że <a href='/o-prologu-slow-kilka'>poprzednim wpisem</a>
