@@ -138,7 +138,7 @@ Taki rodzaj funkcji jest potocznie nazywany perceptronem jednowarstwowym.
 ## To be continued
 
 Jesteśmy już blisko przystanku docelowego w naszej opowieści. Sieci neuronowe czają się tuż za rogiem.
-Niejeden będzie zaskoczony. Zachęcam do zapoznania się z drugą części artykułu (*in progress*).
+Niejeden będzie zaskoczony. Zachęcam do zapoznania się z [drugą części artykułu ](/sieci-neuronowe-cz-2/).
 
 
 {% include alert warning='

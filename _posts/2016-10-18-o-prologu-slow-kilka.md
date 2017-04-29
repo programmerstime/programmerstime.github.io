@@ -17,6 +17,7 @@ teaser: "Artykuł opierający sie na materiałach sięgających czasów studenck
 category: dev
 
 tags:
+  - programowanie
   - języki
   - prolog
 
@@ -215,4 +216,4 @@ rzut oka na program :). Być może pojawi się taka rzecz tutaj w przyszłości.
 ##Do przeczytania wkrótce
 Mam nadzieję, że niniejszy wpis rozbudził ciekawość i przybliżył w przystępny sposób idee leżące
 u podstaw programowania (logicznego i nie tylko). Postaram się opisać moje nieco bardziej zaawansowane
-przygody z Prologiem wkrótce. Zapraszam.
+przygody z Prologiem wkrótce. [Zapraszam](/o-prologu-arytmetyka-i-rekursja).
