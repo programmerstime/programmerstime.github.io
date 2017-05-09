@@ -31,7 +31,7 @@ comments: true
 ---
 
 Nie uważam się za znawcę Prologa. Ponadto dość sporo czasu minęło od ostatniego
-*poważnego* programowania w Prologu. Pomimo to, ciągle czuję się dość pewnie
+*poważnego* programowania w tym języku. Pomimo to, ciągle czuję się dość pewnie
 w temacie. I śmiało mogę stwierdzić, że nie zapomina się raz opanowanego
 podejścia do rozwiązywania problemów.
 
