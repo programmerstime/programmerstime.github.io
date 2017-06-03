@@ -14,9 +14,11 @@ teaser: "W artykule tym spotkamy się po raz pierwszy z Clojure. Fantastycznym
          Napiszemy najprostszy możliwy REST-owy serwis. Cóż więc innego mielibyśmy napisać,
          jeżeli nie sztandarowe <i>hello world</i>?"
 
+category: dev
+
 tags:
   - clojure
-  - compojue
+  - compojure
   - programowanie
   - rest
 

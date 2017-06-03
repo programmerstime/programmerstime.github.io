@@ -23,6 +23,15 @@
 #  - title: "Archiwum"
 #    url: "/blog/archive/"
 
+
+- title: Programowanie
+  url: "/category/dev"
+  side: left
+
+- title: Lifestyle
+  url: "/category/lifestyle"
+  side: left
+
 - title: Archiwum
   url: "/archive/"
   side: left
