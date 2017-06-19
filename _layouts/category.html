@@ -11,9 +11,7 @@ noindex: true
         {% for post in site.categories.[page.category] %}
         <div class="row">
             <div class="small-12 columns b60">
-                <p class="subheadline"><span class="subheader">{% if post.tags %}{{ post.tags | join: ' &middot; ' }}{% endif %}</span>
-                    {% if post.subheadline %} &mdash; {{ post.subheadline }}{% endif %}</p>
-
+                <p class="subheadline"><span class="subheader">{% if post.subheadline %}{{ post.subheadline }} &nbsp; &vert; &nbsp; {% endif %}{% if post.tags %}{{ post.tags | join: ' &middot; ' }}{% endif %}</span> </p>
                 <h2><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></h2>
 
                 <p>

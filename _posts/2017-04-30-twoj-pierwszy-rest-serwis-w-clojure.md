@@ -2,7 +2,7 @@
 layout: page
 
 title: "Piszemy nasz pierwszy REST-owy webserwis w Clojure"
-#subheadline: "subheadline"
+subheadline: "Microservices #1"
 
 teaser: "W artykule tym spotkamy się po raz pierwszy z Clojure. Fantastycznym
          nowoczesnym dialektem Lispa, działającym na JVM.
@@ -19,7 +19,6 @@ category: dev
 tags:
   - clojure
   - compojure
-  - programowanie
   - rest
 
 image:
@@ -92,7 +91,7 @@ A potem `lein help tutorial`. Przyda się jako, że jest to bardzo podstawowe na
 
 Pozwolę sobie tutaj wymienić kilka informacji. Niektóre z nich pojawiają się w samouczku.
 
-Szukanie zalezności
+Szukanie zależności
 : Informacje na temat np. wersji znajdziemy na  *clojars.org*. Możemy
 też wyszykiwać przy pomocy Leiningen np. `lein search clj-http`
 
