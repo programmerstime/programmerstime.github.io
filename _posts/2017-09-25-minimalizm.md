@@ -15,9 +15,6 @@ teaser: "Ostatnio słyszę i czytam na okrągło o minimaliźmie. Mimimalizm tu,
         Ale najpierw muszę się rozprawić z ogólnym brakiem ogarnięcia i pomieszaniem na tym polu."
 
 
-tags:
-  - minimalizm
-
 category: lifestyle
 
 image:
