@@ -105,7 +105,7 @@ Byle tylko świadomie i zgodnie ze swoimi prawdziwymi potrzebami.
 
 
 Zastanówmy się jednak dlaczego miałoby tak nie być? Czyżbyśmy byli nieracjonalni z natury?
-A może to efekt dzisiejszych czasow?
+A może to efekt dzisiejszych czasów?
 
 ## Maksymalizm nieracjonalny
 
@@ -116,8 +116,8 @@ Okazuje się że i to, i to. To temat na zupełnie inny artykuł, ale pozwolę s
 2. Żyjemy w realiach coraz bardziej odbiegających od tych, w których ewoluowaliśmy.
 
 {% include alert text="
- I tak - pewne emocje i zachowania, ktore mialy sens w lowiecko-zbierackiej wiosce
-nie maja uzasadnienia w dzisiejszych czasach. A mimo to wciaz dajemy sie im nieswiadomie ponosic.
+ I tak - pewne emocje i zachowania, które miały sens w łowiecko-zbierackiej wiosce,
+nie mają uzasadnienia w dzisiejszych czasach. A mimo to wciąż dajemy się im nieświadomie ponosić.
 "%}
 
 
