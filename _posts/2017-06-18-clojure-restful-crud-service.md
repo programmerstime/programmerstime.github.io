@@ -215,7 +215,7 @@ Widzimy powyżej mapę z nastepującymi parametrami: klasę sterownika połącze
 <h6>Wskazówka</h6>
 <smaller>Dla uproszczenia przykładu z bazą danych będziemy sie łaczyć na nowo przy każdym zapytaniu.
 Prawidłową techniką byłoby wykorzytywanie puli istniejących połączeń. Rozwinięcie tematu niebawem.
-Na teraz mogę wspomnieć, że mamy do dyspozycji np. *ComboPooledDataSource* z biblioteki C3P0 (java).
+Na teraz mogę wspomnieć, że mamy do dyspozycji np. ComboPooledDataSource z biblioteki C3P0 (java).
 Stąd też "DB_CLOSE_DELAY=-1" &ndash; chcemy żeby baza dalej była dostępna, mimo braku aktywnych z nią połączeń.</smaller>'
 %}
 
