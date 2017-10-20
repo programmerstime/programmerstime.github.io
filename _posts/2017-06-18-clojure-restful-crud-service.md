@@ -57,7 +57,7 @@ O pełną definicję się niestety nie pokuszę. Nie wiem czy w ogóle takowa i
 Powiem jednak, że jest to implementacja jednego ze stylów architektury integracyjnej -
 RPC, czyli zdalnego wywołania procedury[^rpc]. Oparta na protokole HTTP.
 
-Mówimy z angielskiego, ze serwis jest RESTful. No i może on być RESTful w różnym stopniu.
+Mówimy z angielskiego, że serwis jest RESTful. No i może on być RESTful w różnym stopniu.
 Możemy np. wystawić tylko jeden *endpoint* i obsługiwać zapytania inaczej w zależności
 od przesłanej treści.
 
@@ -294,17 +294,17 @@ Możemy się spotkać z nieznacznymi różnicami czy też usprawnieniami w reali
 Sprawdźmy zatem jak działa nasz serwis w akcji. Użyjemy do tego zwyczajnie programu curl.
 
 {% include alert terminal="
-curl localhost:3000/books \\
+$ curl localhost:3000/books \\
 [] \\
 \\
-curl -X POST localhost:3000/books -d '{\"author\":\"Andrzej Sapkowski\",\"title\":\"Last Wish\", \"year\": 1993}' -H \"Content-Type: application/json\" \\
+$ curl -X POST localhost:3000/books -d '{\"author\":\"Andrzej Sapkowski\",\"title\":\"Last Wish\", \"year\": 1993}' -H \"Content-Type: application/json\" \\
 {\"id\":\"af73fc98-1e12-4285-871a-25a201cf1bbc\",\"author\":\"Andrzej Sapkowski\",\"title\":\"Last Wish\",\"year\":1993} \\
 \\
-curl localhost:3000/books \\
+$ curl localhost:3000/books \\
 [{\"id\":\"af73fc98-1e12-4285-871a-25a201cf1bbc\",\"author\":\"Andrzej Sapkowski\",\"title\":\"Last Wish\",\"year\":1993}] \\
 \\
-curl -X DELETE http://localhost:3000/books/af73fc98-1e12-4285-871a-25a201cf1bb \\
-curl localhost:3000/books \\
+$ curl -X DELETE http://localhost:3000/books/af73fc98-1e12-4285-871a-25a201cf1bb \\
+$ curl localhost:3000/books \\
 []" %}
 
 
@@ -342,5 +342,5 @@ Póki co, całość kodu dostępna na [GitHubie](https://github.com/paliwodar/cl
 
 
 
-[^rpc]: Wiem, zwykle RPC kojarzy sie z czyms innym, ale mam tutaj na mysli znaczenie ogolne.
-[^logika]: Przynajmniej bylo tak kiedys. Teraz czesciej mowi sie o warstwie domenowej.
+[^rpc]: Wiem, zwykle RPC kojarzy się z czymś innym, ale mam tutaj na myśli znaczenie ogólne.
+[^logika]: Przynajmniej było tak kiedyś. Teraz częściej mówi się o warstwie domenowej.
