@@ -207,7 +207,7 @@ A oto pełny kod handlera:
 
 ## Zwiastun
 
-W następnym odcinku spróbujemy czegoś bardziej skomplikowanego.
+W <a href='/clojure-restful-crud-service'>następnym odcinku </a>spróbujemy czegoś bardziej skomplikowanego.
 Jak np. bazy danych i obchodzenia się z JSON-em. *Stay tuned!*
 
 

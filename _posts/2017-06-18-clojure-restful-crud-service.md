@@ -169,9 +169,11 @@ No i właśnie ta pierwsza funkcja, podobnie jak ta odpowiadajaca za usuwanie ks
 będą mieć trywialną implementację:
 
 {% highlight clojure %}
-(def read-books db/read-books)
+(defn read-books []
+  (db/read-books))
 
-(def delete-book db/delete-book)
+(defn delete-book [book-id]
+  (db/delete-book book-id))
 {% endhighlight %}
 
 Zwyczajnie odwołują się one do funkcji bazodanowych. Trochę ciekawiej to wygląda
@@ -328,7 +330,7 @@ curl -X PUT localhost:3000/books/0814da21-93ce-4592-94bb-bf9849a4771c -H "Conten
 
 Z powyższego opisu wynikać może, że pominęliśmy do tej pory bardzo ważny aspekt: testowanie.
 
-Powiemy sobie o nich niejako post factum, w jednym z kolejnych wpisów.
+Powiemy sobie o nich niejako post factum, w <a href='/clojure-webservice-testowanie'>jednym z kolejnych wpisów</a>.
 
 Oczywiście nie znaczy to, że czekamy z testowaniem, aż skończymy pisać cały kod aplikacji.
 Testy -- w mojej opinii -- powinny się przynajmniej implementacją zazębiać,

@@ -4,8 +4,7 @@ layout: page
 title: "Sprawne kończenie rozmowy telefonicznej"
 subheadline: "Lifehacki Czasu Programistów #1"
 
-teaser: "
-<br><br>Macie czasem tak, że po obgadaniu prawdziwej przyczyny wykonania telefonu,
+teaser: "Macie czasem tak, że po obgadaniu prawdziwej przyczyny wykonania telefonu,
 rozmowa traci na tempie i zaczyna poruszać
 przypadkowe tematy lub zawierać frazy typu “i co tam jeszcze u ciebie”,
 choć tak naprawdę nie jest to zbytnio interesujące dla żadnej ze stron?
@@ -25,8 +24,6 @@ image:
   thumb: "phone-call-photo_thumb.jpg"
   title: "phone-call-photo.jpg"
 
-header: no
-  #image_fullwidth: "minmalism-plants-big.jpg"
 
 comments: true
 
