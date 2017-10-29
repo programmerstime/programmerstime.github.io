@@ -15,6 +15,8 @@ category: lifestyle
 
 tags:
   - scratch
+  - języki
+  - programowanie
 
 image:
   thumb: "photo-think.jpg"

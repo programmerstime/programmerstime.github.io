@@ -16,7 +16,7 @@ category: dev
 tags:
   - hackerrank
   - zawody
-  - team building
+  - team
 
 image:
   thumb: "photo-run.jpeg"

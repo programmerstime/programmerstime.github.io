@@ -12,6 +12,7 @@ category: dev
 tags:
   - języki
   - kariera
+  - programowanie
 
 image:
   thumb: "photo-tools.jpeg"

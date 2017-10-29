@@ -43,7 +43,7 @@ DELETE /books/[id]
 </pre>
 
 
-Definicje powyższych operacji zawarte są w niemalże w zupełności w jednej funcji -- handler (url do githuba)
+Definicje powyższych operacji zawarte są niemalże w zupełności w jednej funcji -- handler (url do githuba)
 i polegają w dużej mierze na delegacji zapytania do bazy danych.
 Wzbogaconego miejscami o obsługę przypadków brzegowych (jak np. brak elementu w bazie)
 oraz nadawanie id naszym zasobom.
@@ -99,7 +99,7 @@ Składnia jest następująca: po słowie kluczowym *with-redefs* podajemy listę
 Następne argumenty to kod, który będzie objęty nowymi definicjami miast starych.
 
 W tym przypadku *db/read-books* zwyczajnie zwróci zawartość zmiennej *books-data*,
-podczas gdy *db/read-book* zwróci tylko te elementy na liśćie *books-data*, które posiadają podane id.
+podczas gdy *db/read-book* zwróci tylko te elementy na liście *books-data*, które posiadają podane id.
 No i oczywiście *insert* podmienia *books-data* z listą o jeden element dłuższą.
 
 Jako że modyfikuje referencję, to musi być wywołana w transakcji. Clojure posiada
@@ -144,7 +144,7 @@ To powiedziawszy podzielę się następującym scenariuszem testowym.
 Jest on napisany po części wbrew powyższym wytycznym. Składa się bowiem
 z kolejnych, zależnych od siebie przypadków testowych.
 
-Gdyby to miałby kod produkcyjny, to na pewno chciałbym go rozbić na niezależne części.
+Gdyby to miał być kod produkcyjny, to na pewno chciałbym go rozbić na niezależne części.
 Możecie spróbować tego dokonać w ramach ćwiczeń.
 
 

@@ -15,7 +15,7 @@ category: lifestyle
 
 tags:
   - książki
-  - teamwork
+  - team
 
 image:
   thumb: "photo-book1.jpg"
