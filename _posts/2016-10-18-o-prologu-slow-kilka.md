@@ -17,8 +17,6 @@ teaser: "Artykuł opierający sie na materiałach sięgających czasów studenck
 category: dev
 
 tags:
-  - programowanie
-  - języki
   - prolog
 
 image:

@@ -13,7 +13,7 @@ teaser: "Do przeczytania dla wszystkich wybierających się do Zadaru. Dla niewt
           co potencjalnie interesujące. Kolejność jakościowa z lekką nutką losowości. Zaczynamy!"
 
 tags:
-  - tourism
+  - turystyka
   - zadar
   - Chorwacja
 
@@ -26,6 +26,8 @@ header:
   image_fullwidth: "photo-restaurant.jpg"
 
 comments: true
+
+hide_in_related: true
 
 ---
 

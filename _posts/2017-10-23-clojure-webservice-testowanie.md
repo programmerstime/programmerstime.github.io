@@ -16,8 +16,7 @@ category: dev
 
 tags:
   - clojure
-  - compojure
-  - rest
+  - dev
   - testowanie
 
 image:

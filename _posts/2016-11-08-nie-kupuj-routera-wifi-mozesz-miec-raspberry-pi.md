@@ -13,6 +13,7 @@ category: dev
 
 tags:
   - Raspberry Pi
+  - hardware
 
 image:
   thumb: "photo-berries.jpeg"

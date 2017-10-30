@@ -19,7 +19,7 @@ category: dev
 tags:
   - clojure
   - compojure
-  - rest
+  - dev
 
 image:
   thumb: "photo-clojure.jpg"

@@ -17,6 +17,7 @@ category: lifestyle
 tags:
   - szwecja
   - kariera
+  - emigracja
 
 image:
   thumb: "photo-stockholm_thumb.jpg"

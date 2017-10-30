@@ -16,8 +16,8 @@ category: dev
 
 tags:
   - clojure
-  - compojure
   - rest
+  - dev
 
 image:
   thumb: "photo-rest2.jpg"

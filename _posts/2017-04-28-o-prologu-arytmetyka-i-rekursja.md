@@ -16,8 +16,6 @@ teaser: "Mam nadzieję, że <a href='/o-prologu-slow-kilka'>poprzednim wpisem</a
 category: dev
 
 tags:
-  - programowanie
-  - języki
   - prolog
 
 image:

@@ -10,7 +10,6 @@ teaser: "W tematach okołokomputerowych, chyba nawet częściej niż w ,,normaln
 category: dev
 
 tags:
-  - języki
   - kariera
   - programowanie
 

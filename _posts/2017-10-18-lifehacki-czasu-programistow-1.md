@@ -27,6 +27,8 @@ image:
 
 comments: true
 
+hide_in_related: true
+
 ---
 
 Przykłady powyższe mogą się wydawać nieco przejaskrawione.

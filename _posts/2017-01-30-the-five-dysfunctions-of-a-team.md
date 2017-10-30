@@ -16,6 +16,7 @@ category: lifestyle
 tags:
   - książki
   - team
+  - przywództwo
 
 image:
   thumb: "photo-book1.jpg"
