@@ -6,7 +6,7 @@ title: "Jak (nie) szukać mieszkania w Sztokholmie, cz. 1"
 
 teaser: "W niniejszym artykule dzielę się swoimi doświadczeniami
 związanymi z poszukiwaniem mieszkania na wynajem w Sztokholmie.
-<br><br>Temat być może dla niektórych interesujący. Dla innych być może po prostu przydatny.
+<br><br>Temat być może dla niektórych interesujący. Dla innych może po prostu przydatny.
 Szczególnie gdy im się kontrakt kończy. Tak jak to było w moim przypadku jeszcze nie tak dawno temu.
 <br><br>
 Wpis pisany z perspektywy upływu czasu. Z wygodnego skórzanego fotela i maca postawionego na dębowym stole
@@ -64,7 +64,7 @@ zwykle odbywa się to zgodnie z zasadą "kto pierwszy, ten lepszy".
 
 Czyli tak: jest mieszkanie, po godzinie już go nie ma. Znikają tym szybciej, im wyższy jest
 stosunek jakości do ceny. Te za 15 000 SEK dostępne są przez nieco dłuższy okres czasu --
-i mam tuaj na myśli kawalerki lub z maksymalnie jednym oddzielnym pokojem.
+i mam tutaj na myśli kawalerki lub z maksymalnie jednym oddzielnym pokojem.
 Mieszkania w tej cenie brałem wtedy pod uwagę niechętnie, jako że było to nieco więcej, 
 niż wtedy płaciłem za dotychczasowe lokum. 
 
@@ -100,10 +100,10 @@ Znajdziecie tam dużo różnych rzeczy, w tym także mieszkania.
 
 Jedni powiedzieliby, że rynek jest bardzo płynny.
 Inni -- że panuje tam zażarta rywalizacja. Tak sobie przynajmniej wyobrażam,
-gdyż spośród kilkudziesieciu lub nawet kilkuset wysłanych zapytań,
+gdyż spośród kilkudziesięciu lub nawet kilkuset wysłanych zapytań,
 odpowiedzi dostałem zaledwie kilkanaście. Czyżby to był zwykły pech?
 
-Na blockecie można stosować różne strategie szukania. Wstepnie stosowałem najprostszą -
+Na blockecie można stosować różne strategie szukania. Wstępnie stosowałem najprostszą -
 odpowiadanie na ogłoszenia, które wydawały mi się interesujące.
 Czasem dzwoniłem, ale podejrzewam, że tam wygrywali Ci z dobrym refleksem.
 
@@ -111,12 +111,12 @@ Czasem dzwoniłem, ale podejrzewam, że tam wygrywali Ci z dobrym refleksem.
 ## Uwaga na oszustów
 
 Zanim przejdę do mieszkań, które widziałem, to wspomnę o tych których obejrzeć mi się nie udało.
-Co więcej, którch własciciele wcale nie planowali pokazywać.
+Co więcej, których właściciele wcale nie planowali pokazywać.
 
 Wyobraźcie sobie zatem sytuację, w której -- mając miesiąc wypowiedzenia --
 jeżeli chcę opuścić mieszkanie wraz z końcem maja, to muszę dać wypowiedzenie do końca kwietnia.
 
-Wyobraźcie sobie nastepnie jegomościa, który ma obiecujące mieszkanie. To znaczy jeszcze go nie ma,
+Wyobraźcie sobie następnie jegomościa, który ma obiecujące mieszkanie. To znaczy jeszcze go nie ma,
 ale ma dostać klucze, powiedzmy 10 maja.   
 
 Miałem dwie rozmowy z właśnie takim scenariuszem, gdzie żeby wynająć u nich mieszkanie od początku czerwca, 
@@ -127,8 +127,8 @@ Proponowali podpisanie wstępnego kontraktu i wpłacenie niewielkiego depozytu..
 
 Zapewniali możliwość zobaczenia wszystkich dokumentów i wizualizacji oraz -- co niewiarygodne -- "przejechanie się obok mieszkania" ;) 
 
-Oczywiście stwierdzałem, że ja się na coś takiego nie piszę i żeby się ze mna kontaktowali
-pod warunkiem, że uda im się wymyślić jakieś rozwiązanie. Oczywiście odezwu nie było.
+Oczywiście stwierdzałem, że ja się na coś takiego nie piszę i żeby się ze mną kontaktowali
+pod warunkiem, że uda im się wymyślić jakieś rozwiązanie. Oczywiście odzewu nie było.
 
 ## Co dalej?
 
