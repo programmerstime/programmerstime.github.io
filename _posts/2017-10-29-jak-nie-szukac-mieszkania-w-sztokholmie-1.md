@@ -132,5 +132,6 @@ pod warunkiem, że uda im się wymyślić jakieś rozwiązanie. Oczywiście odze
 
 ## Co dalej?
 
-To tyle wstępu. W następnym odcinku o tym jak poszło i jak wyglądały wizyty w poszczególnych mieszkaniach. 
+To tyle wstępu. W [następnym odcinku](/jak-nie-szukac-mieszkania-w-sztokholmie-2/) o tym jak poszło 
+i jak wyglądały wizyty w poszczególnych mieszkaniach. 
 

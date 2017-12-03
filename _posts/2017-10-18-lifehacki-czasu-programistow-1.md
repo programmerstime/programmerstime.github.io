@@ -9,8 +9,8 @@ rozmowa traci na tempie i zaczyna poruszać
 przypadkowe tematy lub zawierać frazy typu “i co tam jeszcze u ciebie”,
 choć tak naprawdę nie jest to zbytnio interesujące dla żadnej ze stron?
 <br><br>A może zdarza się wplatać <b>niepotrzebne tłumaczenia podjętej decyzji</b>,
-czy to biznesowej, czy prywatnej? <br><br>A jak już dojdzie do fazy pożegnania &ndash;
-tutaj szczególnie w przypadku zażyłych relacji &ndash; to następuje stanowczo zbyt długa
+czy to biznesowej, czy prywatnej? <br><br>A jak już dojdzie do fazy pożegnania –
+tutaj szczególnie w przypadku zażyłych relacji – to następuje stanowczo zbyt długa
 wymiana różnych synonimów zwrotu “cześć”, niczym w problemie bizantyjskich generałów?<br>"
 
 
