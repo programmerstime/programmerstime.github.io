@@ -8,12 +8,11 @@ teaser: "Chciałbym wszystkich niniejszym zachęcić do udziału w konkursie pro
          <a href='http://adventofcode.com/'>Advent of Code</a>.
          Natrafiłem na niego przypadkiem, ale już wcześniej zdarzyło mi się o nim słyszeć.
          <br><br>
-         W skrócie mamy 25 programów do rozwiązania, jeden na każdy dzień adwentu.
+         W skrócie mamy 25 problemów do rozwiązania, jeden na każdy dzień adwentu.
          Wspaniała forma na wyczekiwanie i przygotowanie do świąt ;).
          <br><br>
-         W Advent of Code nie musimy wysyłać kodu źrodłowego. Wystarczy wyliczone rozwiązanie.
-         W sumie nie potrzeba do niego programowania, ale jednak jego użycie pomoże 
-         w przeprowadzeniu sprawnej kalkulacji. 
+         W Advent of Code nie musimy wysyłać kodu źródłowego. Wystarczy otrzymanie
+          wyniku obliczonego dla podanych danych wejściowych.
          <br><br>
          Postanowiłem spróbować swoich sił. Takie wydarzenia, to na przykład
          wspaniała forma poznawania nowych języków programowania. Ja na pierwsze zadania 
@@ -75,7 +74,7 @@ umieszczając testy w odpowiadających pakietach w *src/test*.
 
 ## Groovy
 
-Wiedzałem, że nie będę nigdzie wysyłał mojego kodu. Wystarczy zatem zeby zrobił on 
+Wiedzałem, że nie będę nigdzie wysyłał mojego kodu. Wystarczy zatem żeby zrobił on 
 to co do niego należy -- przeprowadził kalkulacje zgodnie z podanym algorytmem.
 
 W takiej sytuacji sam kod nie musiał być idealny, szybki, ponadprzeciętnie czytelny 
@@ -98,7 +97,7 @@ Całość opakowana jest w zabawną fabułę. Otóż w przedświąteczną noc ok
 Na drodze do tego stoi 50 bugów, które trapi jego drukarkę. Naszym zadaniem będzie
 ich eliminacja.
 
-Pierwszym zadaniem jest przejście captchy. Składa sie ona z listy cyfr.
+Pierwszym wyzywaniem jest przejście captchy. Składa sie ona z listy cyfr.
 Poszukiwanym rozwiązaniem jest suma wszystkich elementów, które są powtórzone
 na następnej pozycji. Listę należy traktować jako cykliczną.
 
