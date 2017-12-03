@@ -21,6 +21,8 @@ teaser: "Chciałbym wszystkich niniejszym zachęcić do udziału w konkursie pro
 
 tags:
   - programowanie
+  - groovy
+  - konkurs
 
 category: dev
 
@@ -200,6 +202,7 @@ To sama przyjemność pisać tak zwięzły i czytelny kod.
 Zobaczymy czy uda się zachować ten standard przy bardziej skomplikowanych zadaniach.
 
 Zapraszam do śledzenia kolejnych wpisów. Moje rozwiązania można zobaczyć na 
-[githubie](https://github.com/paliwodar/advent-of-code-2017).
+[githubie](https://github.com/paliwodar/advent-of-code-2017). 
+Polecam dołączyć do listy rankingowej *Czasu Programistów* używając kodu `232530-5e15782d`.
 
 
